@@ -3,15 +3,18 @@ Ce dossier a pour vocation de rassembler des ressources utiles aux travaux de mi
 ```mermaid
 flowchart LR;
  classDef dcat fill:#f9f;
+  classDef prov fill:#39f;
+    
     ISO[METADONNE INSPIRE]-->A1;
-    ISO[METADONNE INSPIRE]-->A2;
-    ISO[METADONNE INSPIRE]-->A3;
-    ISO[METADONNE INSPIRE]-->A4;
-    ISO[METADONNE INSPIRE]-->A5;
-    ISO[METADONNE INSPIRE]-->A6;
-    ISO[METADONNE INSPIRE]-->A7;
-    ISO[METADONNE INSPIRE]-->A8;
-    ISO[METADONNE INSPIRE]-->A9;
+    click ISO "https://www.iso.org" "This is a tooltip for a link"
+    ISO-->A2;
+    ISO-->A3;
+    ISO-->A4;
+    ISO-->A5;
+    ISO-->A6;
+    ISO-->A7;
+    ISO-->A8;
+    ISO-->A9;
     A1[IDENTIFICATION DES DONNEES]-->B[INTITULE DE LA RESSOURCE];
     	B-->TITLE["dct:title"]:::dcat;
     	A1-->C[RESUME DE LA RESSOURCE];
@@ -54,9 +57,14 @@ flowchart LR;
 	A8[ORGANISATIONS RESPONSABLES]-->B8[PARTIE RESPONSABLE];
 		A8-->C8[ROLE DE LA PARTIE RESPONSABLE];
 	A9[METADONNEES CONCERNANT LES METADONNEES]-->B9[POINT DE CONTACT DES METADONNEES];
+	B9-->QUALATT["prov:qualifiedAttribution"]:::prov;
+	B9-->CONTA["dcat:contactPoint"]:::dcat;
 		A9-->C9[DATE DES METADONNEES];
+		C9-->MODIF["dct:modified"]:::dcat;
 		A9-->D9[LANGUE DES METADONNEES];
+		D9-->LANG["dct:language"]:::dcat;
 		A9-->E9[IDENTIFIANT DE LA METADONNEE];
+		E9-->IDENT["dct:Identifier"]:::dcat;
 		
     ""
 ```
