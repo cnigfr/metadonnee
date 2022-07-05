@@ -43,25 +43,32 @@ flowchart LR;
 		A1-->J[TYPE DE REPRESENTATION];
 		J-->REPT["adms:representationTechnique"]:::other;
     	A2[CLASSIFICATION DES DONNEES ET SERVICES GEOGRAPHIQUES]-->B2[CATEGORIE THEMATIQUE];
+		B2-->SUBJ["dct:subject"]:::dct;
 		click A2 "https://github.com/cnigfr/metadonnee/issues/8"
     	A3[MOTS CLES]-->B3[MOTS CLE OBLIGATOIRE];
 		click A3 "https://github.com/cnigfr/metadonnee/issues/7"
 		B3-->B33[Thème INSPIRE];
 		B3-->B34[Données prioritaires];
 		B3-->B35[Données de couverture nationale/régionale];
+		B33-->THEM["dcat:theme"]:::dcat
+		B34-->THEM;
+		B35-->THEM;
 		A3-->C3[MOTS CLES COMPLEMENTAIRES];
+		C3-->KWD["dcat:keyword"]:::dcat;	
 	A4[SITUATION GEOGRAPHIQUE]-->B4[RECTANGLE DE DELIMITATION GEOGRAPHIQUE];
 		click A4 "https://github.com/cnigfr/metadonnee/issues/6"
-		B4-->Z4["dct:spatial"]:::dcat;
+		B4-->Z4["dct:spatial"]:::dct;
 		A4-->C4[REFERENTIEL DE COORDONNEES];
-		C4-->C41[Cas général : système de référence spatial];
-		C4-->C42[Cas particulier : système de référence par identifiants géographiques];
+		C4-->DCONF["dct:conformsTo"]:::dct;
 	A5[REFERENCE TEMPORELLE]-->B5[ETENDUE TEMPORELLE];
 		click A5 "https://github.com/cnigfr/metadonnee/issues/5"
 		A5-->C5[DATES DE REFERENCE];
 		C5-->C51[Date de publication];
+		C51-->ISS["dct:issued"]:::dct;
 		C5-->C52[Date de création];
+		C52-->DMOD["dct:modified"]:::dct;
 		C5-->C53[Date de dernière révision];
+		C53-->DCRE["dct:created"]:::dct;
 		A5-->D5[SYSTEME DE REFERENCE TEMPOREL];
 	A6[QUALITE ET VALIDITE]-->B6[GENEALOGIE];
 		click A6 "https://github.com/cnigfr/metadonnee/issues/4"
