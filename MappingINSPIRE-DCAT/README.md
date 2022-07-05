@@ -2,8 +2,14 @@
 Ce dossier a pour vocation de rassembler des ressources utiles aux travaux de mise en correspondace entre les métadonnées INSPIRE ISO 19115 et GeoDCAT-AP. 
 ```mermaid
 flowchart LR;
- classDef dcat fill:#f9f;
-  classDef prov fill:#39f;
+ classDef dct fill:#f9f;
+ classDef prov fill:#39f;
+ classDef dcat fill:#393;
+ classDef other fill:#79f;
+ classDef rdf fill:#b9f;
+
+
+
     
     ISO[METADONNE INSPIRE]-->A1;
     ISO-->A2;
@@ -19,14 +25,23 @@ flowchart LR;
 		click A1 "https://github.com/cnigfr/metadonnee/issues/9"
     		B-->TITLE["dct:title"]:::dcat;
     		A1-->C[RESUME DE LA RESSOURCE];
-		C-->DESC["dct:description"]:::dcat;
+		C-->DESC["dct:description"]:::dct;
     		A1-->D[TYPE DE LA RESSOURCE];
+		D-->DTYP["dct:description"]:::dct;
+		D-->RTYP["rdf:type"]:::rdf;
 	    	A1-->E[LOCALISATEUR DE LA RESSOURCE];
+		E-->AURL["dcat:accessUrl"]:::dcat;
+		E-->FPAG["foaf:Page"]:::other;
     		A1-->F[IDENTIFICATEUR DE RESSOURCE UNIQUE];
+		F-->DID["dct:identifier"]:::dct;
     		A1-->G[LANGUE DE LA RESSOURCE];
+		G-->DLANG["dct:language"]:::dct;
     		A1-->H[ENCODAGE];
+		H-->DFMT["dct:format"]:::dct;
     		A1-->I[ENCODAGE DES CARACTERES];
-    		A1-->J[TYPE DE REPRESENTATION];
+		I-->ENCOD["cnt:characterEncoding"]:::other;
+		A1-->J[TYPE DE REPRESENTATION];
+		J-->REPT["adms:representationTechnique"]:::other;
     	A2[CLASSIFICATION DES DONNEES ET SERVICES GEOGRAPHIQUES]-->B2[CATEGORIE THEMATIQUE];
 		click A2 "https://github.com/cnigfr/metadonnee/issues/8"
     	A3[MOTS CLES]-->B3[MOTS CLE OBLIGATOIRE];
@@ -68,11 +83,11 @@ flowchart LR;
 		B9-->QUALATT["prov:qualifiedAttribution"]:::prov;
 		B9-->CONTA["dcat:contactPoint"]:::dcat;
 		A9-->C9[DATE DES METADONNEES];
-		C9-->MODIF["dct:modified"]:::dcat;
+		C9-->MODIF["dct:modified"]:::dct;
 		A9-->D9[LANGUE DES METADONNEES];
-		D9-->LANG["dct:language"]:::dcat;
+		D9-->LANG["dct:language"]:::dct;
 		A9-->E9[IDENTIFIANT DE LA METADONNEE];
-		E9-->IDENT["dct:Identifier"]:::dcat;
+		E9-->IDENT["dct:Identifier"]:::dct;
 		
     ""
 ```
