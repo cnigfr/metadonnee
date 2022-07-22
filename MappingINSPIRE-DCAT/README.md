@@ -85,7 +85,9 @@ flowchart LR;
 	A7[CONTRAINTES]-->B7[CONTRAINTES INSPIRE];
 		click A7 "https://github.com/cnigfr/metadonnee/issues/3"
 		B7-->B71[Restrictions];
+		B71-->B711["dct:accessRights]:::dct;
 		B7-->B72[Conditions applicable];
+		B72-->B721["dct:license"]:::dct;
 		A7-->C7[AUTRES CONTRAINTES];
 	A8[ORGANISATIONS RESPONSABLES]-->B8[PARTIE RESPONSABLE];
 		click A8 "https://github.com/cnigfr/metadonnee/issues/2"
