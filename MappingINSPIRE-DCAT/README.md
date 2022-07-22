@@ -72,11 +72,16 @@ flowchart LR;
 		A5-->D5[SYSTEME DE REFERENCE TEMPOREL];
 	A6[QUALITE ET VALIDITE]-->B6[GENEALOGIE];
 		click A6 "https://github.com/cnigfr/metadonnee/issues/4"
+		B6-->B61["dct:provenance"]:::dct;
 		A6-->C6[RESOLUTION SPATIALE];
+		C6-->C61["rdfs:comment"]:::rdf;
 		A6-->D6[COHERENCE TOPOLOGIQUE];
+		D6-->D61[???];
 		A6-->E6[CONFORMITE];
 		E6-->E61[SPECIFICATION];
 		E6-->E62[DEGRE];
+		E61-->E611["dct:conformsTo"]:::dct;
+		E62-->E611;
 	A7[CONTRAINTES]-->B7[CONTRAINTES INSPIRE];
 		click A7 "https://github.com/cnigfr/metadonnee/issues/3"
 		B7-->B71[Restrictions];
