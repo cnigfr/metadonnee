@@ -36,7 +36,7 @@ flowchart LR;
 		F-->DID["dct:identifier"]:::dct;
     		A1-->G[LANGUE DE LA RESSOURCE];
 		G-->DLANG["dct:language"]:::dct;
-    		A1-->H[ENCODAGE (=FORMAT)];
+    		A1-->H["ENCODAGE (=FORMAT)"];
 		H-->DFMT["dct:format"]:::dct;
     		A1-->I[ENCODAGE DES CARACTERES];
 		I-->ENCOD["cnt:characterEncoding"]:::other;
