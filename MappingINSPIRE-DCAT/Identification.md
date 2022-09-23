@@ -17,14 +17,14 @@
   <tbody>
     <tr>
       <td colspan="2">Intitulé</td>
-      <td><code>dct:title</code></td>
+      <td><code>dcat:Dataset/dct:title</code></td>
       <td><code>rdf:PlainLiteral</code></td>
       <td>stable</td>
       <td></td>
     </tr>
     <tr>
       <td colspan="2">Résumé</td>
-      <td><code>dct:description</code></td>
+      <td><code>dcat:Dataset/dct:description</code></td>
       <td><code>rdf:PlainLiteral</code></td>
       <td>stable</td>
       <td></td>
@@ -32,7 +32,7 @@
     <tr>
       <td rowspan="5">Type de la ressource</td>
       <td><em>Any type</em></td>
-      <td><strong><code>dct:type</code></strong></td>
+      <td><strong><code>dcat:Dataset/dct:type</code></strong></td>
       <td><strong><code>skos:Concept</code></strong></td>
       <td>stable</td>
       <td>Seulement pour le profil étendu</td>
@@ -60,11 +60,11 @@
     </tr>
 <tr>
       <td rowspan="6">Localisateur de la ressource</td>
-      <td>* Download</td>
-      <td><code>dcat:accessURL</code></td>
+      <td>Download</td>
+      <td><code>dcat:Distribution/dcat:accessURL</code></td>
       <td><code>rdfs:Resource</code></td>
       <td>stable</td>
-      <td>Le domaine est <code>dcat:Distribution</code></td>
+      <td></td>
     </tr>
  <tr>
       <td>Information</td>
@@ -74,70 +74,71 @@
       <td></td>
     </tr>
     <tr>
-      <td>* Offline access</td>
-      <td><code>dcat:accessURL</code></td>
+      <td>Offline access</td>
+      <td><code>dcat:Distribution/dcat:accessURL</code></td>
       <td><code>rdfs:Resource</code></td>
       <td><em>testing</em></td>
-      <td>Le domaine est <code>dcat:Distribution</code></td>
+      <td></td>
     </tr>
     <tr>
-      <td>* Order</td>
-      <td><code>dcat:accessURL</code></td>
+      <td>Order</td>
+      <td><code>dcat:Distribution/dcat:accessURL</code></td>
       <td><code>rdfs:Resource</code></td>
       <td><em>testing</em></td>
-      <td>Le domaine est <code>dcat:Distribution</code></td>
+      <td></td>
     </tr>
     <tr>
       <td>Search</td>
-      <td><code>foaf:page</code></td>
+      <td><code>dcat:Dataset/foaf:page</code></td>
       <td><code>foaf:Document</code></td>
       <td><em>testing</em></td>
       <td></td>
     </tr>
     <tr>
       <td><em>missing</em></td>
-      <td><code>dcat:landingPage</code></td>
+      <td><code>dcat:Dataset/dcat:landingPage</code></td>
       <td><code>foaf:Document</code></td>
       <td>stable</td>
       <td></td>
     </tr>
     <tr>
       <td colspan="2">identificateur de ressource unique</td>
-      <td><code>dct:identifier</code></td>
+      <td><code>dcat:Dataset/dct:identifier</code></td>
       <td><code>rdfs:Literal</code></td>
       <td><em>testing</em></td>
       <td></td>
     </tr>
     <tr>
       <td colspan="2">Langue</td>
-      <td><code>dct:language</code></td>
+      <td><code>dcat:Dataset/dct:language</code></td>
       <td><code>dct:LinguisticSystem</code></td>
       <td>stable</td>
       <td></td>
     </tr>
  <tr>
-      <td colspan="2">* Format / Encoding</td>
+      <td colspan="2">Format / Encoding</td>
 <!--      
       <td><code>dcat:mediaType</code></td>
 -->      
-      <td><code>dct:format</code></td>
+      <td><code>dcat:Distribution/dct:format</code></td>
       <td><code>dct:MediaTypeOrExtent</code></td>
       <td><em>testing</em></td>
-      <td>Le domaine est <code>dcat:Distribution</code></td>
+      <td></td>
     </tr>
     <tr>
-      <td colspan="2">* Character encoding</td>
-      <td><strong><code>cnt:characterEncoding</code></strong></td>
+      <td colspan="2">Character encoding</td>
+      <td><strong><code>dcat:Distribution/cnt:characterEncoding</code></strong></td>
       <td><strong><code>rdfs:Literal</code></strong></td>
       <td><em>testing</em></td>
-      <td>Seulement pour le profil étendu. Le domaine est <code>dcat:Distribution</code></td>
+      <td>Seulement pour le profil étendu. </td>
     </tr>
 <tr>
-      <td colspan="2">* Type de représentation géographique</td>
-      <td><strong><code>adms:representationTechnique</code></strong></td>
+      <td colspan="2">Type de représentation géographique</td>
+      <td><strong><code>dcat:Distribution/adms:representationTechnique</code></strong></td>
       <td><strong><code>rdfs:Resource</code></strong></td>
       <td><em>testing</em></td>
-      <td>Seulement pour le profil étendu. Le domaine est <code>dcat:Distribution</code></td>
+      <td>Seulement pour le profil étendu.</td>
     </tr>
   </tbody>
 </table>
+
