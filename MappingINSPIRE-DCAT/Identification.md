@@ -1,5 +1,5 @@
 <h3><a name="md-on-md">Identification </a></h3>
-<p>Le domaine du mapping est <code>dcat:Dataset</code>, sauf mention contraire.</p>
+<p>Les commentaires se font ici : https://github.com/cnigfr/metadonnee/issues/9</p>
 
 <table>
   <thead>
