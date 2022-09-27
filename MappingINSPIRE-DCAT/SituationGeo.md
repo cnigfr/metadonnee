@@ -1,5 +1,5 @@
 <h3><a name="md-on-md">Situation géographique</a></h3>
-<p>Le domaine du mapping est <code>dcat:Dataset</code>, sauf mention contraire.</p>
+<p>Les commentaires sont à faire ici : https://github.com/cnigfr/metadonnee/issues/6</p>
 
 <table>
   <thead>
@@ -18,22 +18,22 @@
 
 <tr>
       <td colspan="2"><em>Etendue spatiale</em></td>
-      <td><code>dct:spatial</code></td>
+      <td><code>dcat:Dataset/dct:spatial</code></td>
       <td><code>dct:Location</code></td>
       <td>stable</td>
       <td>Spatial extent / coverage is specified as a geographic identifier and/or bounding box - see below</td>
     </tr>
   <tr>
       <td colspan="2"><a href="#mapping-bbox" title="see details">Etendue spatiale: emprise</a></td>
-      <td><code>locn:geometry</code></td>
+      <td><code>dct:Location/locn:geometry</code></td>
       <td><code>locn:Geometry</code> (<code>rdfs:Literal</code> or <code>rdfs:Class</code>)</td>
       <td>stable</td>
-      <td>The recommendation is to use WKT or GML literals, encoded as per the GeoSPARQL specification. The domain is <code>dct:Location</code></td>
+      <td>The recommendation is to use WKT or GML literals, encoded as per the GeoSPARQL specification.</td>
     </tr>
     <tr>
       <td rowspan="4"><a href="#mapping-geo-id" title="see details">Etendue spatiale: Geographic identifier</a></td>
       <td rowspan="3">Code</td>
-      <td><code>dct:spatial</code></td>
+      <td><code>dcat:Dataset/dct:spatial</code></td>
       <td><code>rdfs:Resource</code> (URI reference)</td>
       <td>stable</td>
       <td>If the geographic identifier is an HTTP URI.</code></td>
