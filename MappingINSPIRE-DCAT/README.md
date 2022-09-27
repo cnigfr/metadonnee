@@ -20,6 +20,7 @@ flowchart LR;
     ISO-->A7;
     ISO-->A8;
     ISO-->A9;
+    X1[AUTRES METADONNEES]-->Y1[CATALOGUE DE DONNEE];
     
     	A1[IDENTIFICATION DES DONNEES]-->B[INTITULE DE LA RESSOURCE];
 		click A1 "https://github.com/cnigfr/metadonnee/blob/main/MappingINSPIRE-DCAT/Identification.md"
