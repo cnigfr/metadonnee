@@ -1,5 +1,4 @@
 <h3><a name="md-on-md">Contraintes en matière d'accès et d'utilisation</a></h3>
-<p>Les commentaires sont à faire ici : https://github.com/cnigfr/metadonnee/issues/3.</p>
 
 <table>
   <thead>
