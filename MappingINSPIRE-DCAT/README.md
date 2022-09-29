@@ -91,7 +91,7 @@ flowchart LR;
 		B72-->B721["dct:license"]:::dct;
 		A7-->C7[AUTRES CONTRAINTES];
 	A8[ORGANISATIONS RESPONSABLES]-->B8[PARTIE RESPONSABLE];
-		click A8 "https://github.com/cnigfr/metadonnee/blob/main/MappingINSPIRE-DCAT/OrganisationResp"
+		click A8 "https://github.com/cnigfr/metadonnee/blob/main/MappingINSPIRE-DCAT/OrganisationResp.md"
 		A8-->C8[ROLE DE LA PARTIE RESPONSABLE];
 	A9[METADONNEES CONCERNANT LES METADONNEES]-->B9[POINT DE CONTACT DES METADONNEES];
 		click A9 "https://github.com/cnigfr/metadonnee/blob/main/MappingINSPIRE-DCAT/Metadonnees.md"
