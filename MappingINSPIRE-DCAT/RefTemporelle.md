@@ -1,6 +1,4 @@
 <h3><a name="md-on-md">Référence temporelle</a></h3>
-<p>Les commentaires sont à faire ici : https://github.com/cnigfr/metadonnee/issues/5</p>
-
 
 <table>
   <thead>
