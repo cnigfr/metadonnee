@@ -1,5 +1,5 @@
 <h3><a name="md-on-md">Classification des données</a></h3>
-<p>Le domaine du mapping est <code>dcat:dataset</code>.</p>
+<p>Les commentaires sur ce tableau sont disponibles ici https://github.com/cnigfr/metadonnee/issues?q=is%3Aissue+is%3Aopen+label%3AClassification</p>
 
 <table>
   <thead>
