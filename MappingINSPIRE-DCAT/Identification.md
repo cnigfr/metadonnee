@@ -1,5 +1,5 @@
 <h3><a name="md-on-md">Identification </a></h3>
-<p>Les commentaires se font ici : https://github.com/cnigfr/metadonnee/issues/9</p>
+<p>Les commentaires sur ce tableau sont accessibles ici : https://github.com/cnigfr/metadonnee/issues?q=is%3Aissue+is%3Aopen+label%3AIdentification</p>
 
 <table>
   <thead>
