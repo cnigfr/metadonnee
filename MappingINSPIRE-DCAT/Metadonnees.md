@@ -1,5 +1,4 @@
 <h3><a name="md-on-md">Métadonnées sur les métadonnées</a></h3>
-<p>Les commentaires sont à faire ici : https://github.com/cnigfr/metadonnee/issues/1.</p>
 
 <table>
   <thead>
