@@ -1,5 +1,5 @@
 <h3><a name="md-on-md">Organisations responsables</a></h3>
-<p>Les commentaires sont à faire ici : https://github.com/cnigfr/metadonnee/issues/2.</p>
+
 <table>
   <thead>
     <tr>
