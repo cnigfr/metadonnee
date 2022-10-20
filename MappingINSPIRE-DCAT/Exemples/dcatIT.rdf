@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <dcatapit:Catalog xmlns:dcatapit="http://dati.gov.it/onto/dcatapit#" rdf:about="https://geodati.gov.it">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Catalog"/>
+    <dct:title xmlns:dct="http://purl.org/dc/terms/" xml:lang="it">RNDT - Repertorio Nazionale dei Dati Territoriali - Servizio di ricerca</dct:title>
+    <dct:description xmlns:dct="http://purl.org/dc/terms/" xml:lang="it">Il servizio di ricerca del RNDT fornisce l'accesso ai metadati su dati e servizi territoriali delle Pubbliche Amministrazioni italiane. Esso è conforme alle specifiche CSW (ISO Application Profile) di OGC e alle linee guida INSPIRE sui servizi di ricerca</dct:description>
+    <dct:publisher xmlns:dct="http://purl.org/dc/terms/">
+      <dcatapit:Agent rdf:about="https://indicepa.gov.it/ricerca/n-dettaglioamministrazione.php?cod_amm=agid">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>agid</dct:identifier>
+        <foaf:name xmlns:foaf="http://xmlns.com/foaf/0.1/" xml:lang="it">Agenzia per l'Italia Digitale</foaf:name>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dct:modified xmlns:dct="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-10-19</dct:modified>
+    <foaf:homepage xmlns:foaf="http://xmlns.com/foaf/0.1/" rdf:resource="https://geodati.gov.it/"/>
+    <dct:language xmlns:dct="http://purl.org/dc/terms/" rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:issued xmlns:dct="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-04-06</dct:issued>
+    <dcat:themeTaxonomy xmlns:dcat="http://www.w3.org/ns/dcat#">
+      <skos:ConceptScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://publications.europa.eu/resource/authority/data-theme">
+        <dct:title xmlns:dct="http://purl.org/dc/terms/">Data Theme Vocabulary</dct:title>
+      </skos:ConceptScheme>
+    </dcat:themeTaxonomy>
+    <dct:license xmlns:dct="http://purl.org/dc/terms/" rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dcat:dataset xmlns:dcat="http://www.w3.org/ns/dcat#">
+      <dcatapit:Dataset rdf:about="https://geodati.gov.it/resource/id/r_marche:b934a355-656f-4f50-e18b-be8d784543a1">
+        <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+        <dct:identifier xmlns:dct="http://purl.org/dc/terms/">r_marche:c5f6806c-8588-4e3b-f0ea-e9abcb68cf4b</dct:identifier>
+        <dct:title xmlns:dct="http://purl.org/dc/terms/" xml:lang="it">CONFINI AMMINISTRATIVI REGIONE MARCHE 1:10.000</dct:title>
+        <dct:description xmlns:dct="http://purl.org/dc/terms/" xml:lang="it">I Limiti Amministrativi della Regione Marche alla scala 1:10.000 sono stati ricavati mediate verifica degli elementi fisici presenti nella Carta Tecnica Regionale con le informazioni sui confini derivanti dalla cartografia catastale. L’esito di tale attività ha determinato l’utilizzo, dove possibile, degli elementi fisici rappresentati nella CTR dove questi costituiscono il limite del confine amministrativo, ad esempio corsi d’acqua, strade, limite di costa, etc. I Confini amministrativi hanno subito modifiche a seguito delle seguenti disposizioni normative: - Legge 3 agosto 2009 n. 117 - Distacco dei comuni di Casteldelci, Maiolo, Novafeltria, Pennabilli, San Leo, Sant’Agata Feltria e Talamello; - L. R.  n. 47 13/12/2013 - Istituzione del nuovo Comune di Vallefoglia (PU) mediante fusione dei Comuni di Colbordolo (PU) e Sant’Angelo in Lizzola (PU); - L. R. n. 18 22/07/2013 - Istituzione del nuovo Comune di Trecastelli (AN) mediante fusione dei Comuni di Castel Colonna (AN), Monterado (AN) e Ripe (AN); - L. R. n. 15 23/06/2014 - Distacco della frazione di Marotta dal Comune di Fano (PU) e incorporazione nel Comune di Mondolfo (PU); - L. R. n. 25 del 24/10/2016 - Fusione per incorporazione del Comune di Acquacanina (MC) nel Comune di Fiastra (MC); - L. R. n. 28 del 07/12/2016 – “Istituzione di un nuovo Comune mediante fusione dei Comuni di Barchi, Orciano di Pesaro, Piagge e San Giorgio di Pesaro…” – Comune di Terre Roveresche (PU); - L. R. n. 29 del 07/12/2016 - “Istituzione di un nuovo Comune mediante fusione dei Comuni di Montemaggiore al Metauro, Saltara e Serrungarina...” – Comune di Colli al Metauro (PU); - L. R.  n. 34 del 22/12/2016 – “Istituzione di un nuovo Comune mediante fusione  dei Comuni di Pievebovigliana e Fiordimonte…” – Comune di Valfornace (MC); - L. R. n. 47 del 12/12/2018 - “Istituzione di un nuovo Comune mediante fusione dei Comuni di Auditore e Sassocorvaro...” – Comune di Sassocorvaro Auditore (PU); - L. R.  n. 8 del 05/03/2020 – Fusione per incorporazione del Comune di Monteciccardo (PU) nel Comune di Pesaro (PU).</dct:description>
+        <dct:modified xmlns:dct="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-06-17</dct:modified>
+        <dct:subject xmlns:dct="http://purl.org/dc/terms/" rdf:resource="http://inspire.ec.europa.eu/theme/au"/>
+        <dct:subject xmlns:dct="http://purl.org/dc/terms/" rdf:resource="http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/boundaries"/>
+        <dcat:theme>
+          <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://publications.europa.eu/resource/authority/data-theme/GOVE">
+            <skos:prefLabel xml:lang="it">Governo e settore pubblico</skos:prefLabel>
+          </skos:Concept>
+        </dcat:theme>
+        <dct:rightsHolder xmlns:dct="http://purl.org/dc/terms/">
+          <dcatapit:Agent rdf:about="https://geodati.gov.it/resource/administration/r_marche:b934a355-656f-4f50-e18b-be8d784543a1/owner">
+            <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+            <dct:identifier>r_marche</dct:identifier>
+            <foaf:name xmlns:foaf="http://xmlns.com/foaf/0.1/" xml:lang="it">Regione Marche</foaf:name>
+          </dcatapit:Agent>
+        </dct:rightsHolder>
+        <dct:accrualPeriodicity xmlns:dct="http://purl.org/dc/terms/" rdf:resource="http://publications.europa.eu/resource/authority/frequency/UNKNOWN"/>
+        <dcat:distribution rdf:resource="https://geodati.gov.it/resource/distribution/r_marche:b934a355-656f-4f50-e18b-be8d784543a1/SHP-1"/>
+        <dcat:contactPoint rdf:resource="https://geodati.gov.it/resource/pointOfContact/r_marche:b934a355-656f-4f50-e18b-be8d784543a1-1"/>
+        <dct:issued xmlns:dct="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-08-03</dct:issued>
+        <dct:language xmlns:dct="http://purl.org/dc/terms/" rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+        <dcat:keyword>Unità amministrative</dcat:keyword>
+        <dcat:keyword>amministrazione</dcat:keyword>
+        <dcat:keyword>regionale</dcat:keyword>
+        <dcat:keyword>Confini Comunali</dcat:keyword>
+        <dcat:keyword>Confini Provinciali</dcat:keyword>
+        <dct:temporal xmlns:dct="http://purl.org/dc/terms/">
+          <dct:PeriodOfTime rdf:about="https://geodati.gov.it/resource/temporalExtent/r_marche:b934a355-656f-4f50-e18b-be8d784543a11">
+            <dcatapit:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-08-03</dcatapit:startDate>
+            <dcatapit:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-06-17</dcatapit:endDate>
+          </dct:PeriodOfTime>
+        </dct:temporal>
+        <dct:spatial xmlns:dct="http://purl.org/dc/terms/">
+          <dct:Location rdf:about="https://geodati.gov.it/resource/spatial/r_marche:b934a355-656f-4f50-e18b-be8d784543a1">
+            <locn:geometry xmlns:locn="http://www.w3.org/ns/locn#" rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral"><![CDATA[POLYGON ((14.4767 44.4767, 11.4285 44.4767, 11.4285 42.1714, 14.4767 42.1714, 14.4767 44.4767))]]></locn:geometry>
+          </dct:Location>
+        </dct:spatial>
+        <dct:type xmlns:dct="http://purl.org/dc/terms/">
+                        http://inspire.ec.europa.eu/metadata-codelist/ResourceType/
+                        dataset</dct:type>
+        <foaf:isPrimaryTopicOf xmlns:foaf="http://xmlns.com/foaf/0.1/" rdf:resource="https://geodati.gov.it/resource/catalogRecord/r_marche:b934a355-656f-4f50-e18b-be8d784543a1"/>
+        <dct:medium xmlns:dct="http://purl.org/dc/terms/" rdf:resource="https://registry.geodati.gov.it/metadata-codelist/presentationForm/mapDigital"/>
+        <cnt:characterEncoding xmlns:cnt="http://www.w3.org/2011/content#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UTF-8</cnt:characterEncoding>
+        <dqv:hasQualityMeasurement xmlns:dqv="http://www.w3.org/ns/dqv#" rdf:resource="https://geodati.gov.it/resource/dataQuality/r_marche:b934a355-656f-4f50-e18b-be8d784543a1-positionalAccuracy"/>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="it">
+               Risoluzione spaziale (scala equivalente): 1:
+               10000</rdfs:comment>
+        <dct:provenance xmlns:dct="http://purl.org/dc/terms/" rdf:resource="https://geodati.gov.it/resource/provenance/r_marche:c5f6806c-8588-4e3b-f0ea-e9abcb68cf4b_ID"/>
+      </dcatapit:Dataset>
+    </dcat:dataset>
+  </dcatapit:Catalog>
+  <dcat:CatalogRecord xmlns:dcat="http://www.w3.org/ns/dcat#" rdf:about="https://geodati.gov.it/resource/catalogRecord/r_marche:b934a355-656f-4f50-e18b-be8d784543a1">
+    <dct:language xmlns:dct="http://purl.org/dc/terms/" rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:identifier xmlns:dct="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">r_marche:b934a355-656f-4f50-e18b-be8d784543a1</dct:identifier>
+    <dct:isVersionOf xmlns:dct="http://purl.org/dc/terms/">r_marche:b934a355-656f-4f50-e18b-be8d784543a1</dct:isVersionOf>
+    <dct:modified xmlns:dct="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-01-29</dct:modified>
+    <dcat:contactPoint rdf:resource="https://geodati.gov.it/catalogRecord/pointOfContact/r_marche:b934a355-656f-4f50-e18b-be8d784543a1-1"/>
+    <dct:source xmlns:dct="http://purl.org/dc/terms/" rdf:parseType="Resource">
+      <dct:conformsTo rdf:resource="https://www.gazzettaufficiale.it/eli/id/2012/02/27/12A01801/sg"/>
+    </dct:source>
+    <cnt:characterEncoding xmlns:cnt="http://www.w3.org/2011/content#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UTF-8</cnt:characterEncoding>
+  </dcat:CatalogRecord>
+  <dcatapit:Organization xmlns:dcatapit="http://dati.gov.it/onto/dcatapit#" rdf:about="https://geodati.gov.it/catalogRecord/pointOfContact/r_marche:b934a355-656f-4f50-e18b-be8d784543a1-1">
+    <rdf:type rdf:resource="vcard:Kind"/>
+    <rdf:type rdf:resource="vcard:Organization"/>
+    <vcard:fn xmlns:vcard="http://www.w3.org/2006/vcard/ns#" xml:lang="it">Regione Marche - Servizio Tutela, Gestione e Assetto del Territorio</vcard:fn>
+    <vcard:hasEmail xmlns:vcard="http://www.w3.org/2006/vcard/ns#" rdf:resource="mailto:servizio.territorio@regione.marche.it"/>
+    <vcard:hasURL xmlns:vcard="http://www.w3.org/2006/vcard/ns#" rdf:resource="http://www.cartografia.marche.it"/>
+    <vcard:hasTelephone xmlns:vcard="http://www.w3.org/2006/vcard/ns#" rdf:parseType="Resource">
+      <vcard:value>0718067300</vcard:value>
+      <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#TelephoneType"/>
+    </vcard:hasTelephone>
+  </dcatapit:Organization>
+  <dqv:QualityMeasurement xmlns:dqv="http://www.w3.org/ns/dqv#" rdf:about="https://geodati.gov.it/resource/dataQuality/r_marche:b934a355-656f-4f50-e18b-be8d784543a1-positionalAccuracy">
+    <dqv:isMeasurementOf rdf:resource="http://registry.geodati.gov.it/glossary/positionalAccuracy"/>
+    <dqv:value rdf:datatype="xsd:decimal">2.0</dqv:value>
+    <sdmx-attribute:unitMeasure xmlns:sdmx-attribute="http://purl.org/linked-data/sdmx/2009/attribute#" rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/metre"/>
+  </dqv:QualityMeasurement>
+  <dct:ProvenanceStatement xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://geodati.gov.it/resource/provenance/r_marche:c5f6806c-8588-4e3b-f0ea-e9abcb68cf4b_ID">
+    <rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="it">I Confini amministrativi hanno subito modifiche a seguito delle seguenti disposizioni normative: - Legge 3 agosto 2009 n. 117 - Distacco dei comuni di Casteldelci, Maiolo, Novafeltria, Pennabilli, San Leo, Sant’Agata Feltria e Talamello; - L. R.  n. 47 13/12/2013 - Istituzione del nuovo Comune di Vallefoglia (PU) mediante fusione dei Comuni di Colbordolo (PU) e Sant’Angelo in Lizzola (PU); - L. R. n. 18 22/07/2013 - Istituzione del nuovo Comune di Trecastelli (AN) mediante fusione dei Comuni di Castel Colonna (AN), Monterado (AN) e Ripe (AN); - L. R. n. 15 23/06/2014 - Distacco della frazione di Marotta dal Comune di Fano (PU) e incorporazione nel Comune di Mondolfo (PU); - L. R. n. 25 del 24/10/2016 - Fusione per incorporazione del Comune di Acquacanina (MC) nel Comune di Fiastra (MC); - L. R. n. 28 del 07/12/2016 – “Istituzione di un nuovo Comune mediante fusione dei Comuni di Barchi, Orciano di Pesaro, Piagge e San Giorgio di Pesaro…” – Comune di Terre Roveresche (PU); - L. R. n. 29 del 07/12/2016 - “Istituzione di un nuovo Comune mediante fusione dei Comuni di Montemaggiore al Metauro, Saltara e Serrungarina...” – Comune di Colli al Metauro (PU); - L. R.  n. 34 del 22/12/2016 – “Istituzione di un nuovo Comune mediante fusione  dei Comuni di Pievebovigliana e Fiordimonte…” – Comune di Valfornace (MC); - L. R. n. 47 del 12/12/2018 - “Istituzione di un nuovo Comune mediante fusione dei Comuni di Auditore e Sassocorvaro...” – Comune di Sassocorvaro Auditore (PU); - L. R.  n. 8 del 05/03/2020 – Fusione per incorporazione del Comune di Monteciccardo (PU) nel Comune di Pesaro (PU).</rdfs:label>
+  </dct:ProvenanceStatement>
+  <dcatapit:Distribution xmlns:dcatapit="http://dati.gov.it/onto/dcatapit#" rdf:about="https://geodati.gov.it/resource/distribution/r_marche:b934a355-656f-4f50-e18b-be8d784543a1/SHP-1">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dct:title xmlns:dct="http://purl.org/dc/terms/" xml:lang="it">Distribuzione - Formato SHP</dct:title>
+    <dct:description xmlns:dct="http://purl.org/dc/terms/" xml:lang="it">Distribuzione - Formato SHP</dct:description>
+    <dct:format xmlns:dct="http://purl.org/dc/terms/" rdf:resource="http://publications.europa.eu/resource/authority/file-type/SHP"/>
+    <dcat:accessURL xmlns:dcat="http://www.w3.org/ns/dcat#" rdf:resource="https://www.regione.marche.it/Regione-Utile/Paesaggio-Territorio-Urbanistica-Genio-Civile/Cartografia-e-informazioni-territoriali/Repertorio#1107_Confini-amministrativi-1:10.000"/>
+    <dct:license xmlns:dct="http://purl.org/dc/terms/">
+      <dcatapit:LicenseDocument rdf:about="https://geodati.gov.it/resource/license/r_marche:b934a355-656f-4f50-e18b-be8d784543a1">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/OtherRestrictiveClauses"/>
+        <rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="it">I file in formato shp sono disponibili presso il Servizio Tutela, Gestione e Assetto del Territorio previa presentazione di motivata richiesta scritta. Gli utilizzatori dovranno rendere esplicita la proprietà regionale del dato cartografico.</rdfs:label>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:rights xmlns:dct="http://purl.org/dc/terms/" rdf:resource="https://geodati.gov.it/resource/constraints/r_marche:b934a355-656f-4f50-e18b-be8d784543a1_ID_useConstraints"/>
+    <dct:rights xmlns:dct="http://purl.org/dc/terms/" rdf:resource="https://geodati.gov.it/resource/constraints/r_marche:b934a355-656f-4f50-e18b-be8d784543a1_ID_accessConstraints"/>
+    <adms:representationTechnique xmlns:adms="http://www.w3.org/ns/adms#">
+                        http://inspire.ec.europa.eu/metadata-codelist/SpatialRepresentationTypeCode/
+                        vector</adms:representationTechnique>
+  </dcatapit:Distribution>
+  <dcatapit:Organization xmlns:dcatapit="http://dati.gov.it/onto/dcatapit#" rdf:about="https://geodati.gov.it/resource/pointOfContact/r_marche:b934a355-656f-4f50-e18b-be8d784543a1-1">
+    <rdf:type rdf:resource="vcard:Kind"/>
+    <rdf:type rdf:resource="vcard:Organization"/>
+    <vcard:fn xmlns:vcard="http://www.w3.org/2006/vcard/ns#" xml:lang="it">Regione Marche - Servizio Tutela, Gestione e Assetto del Territorio</vcard:fn>
+    <vcard:hasEmail xmlns:vcard="http://www.w3.org/2006/vcard/ns#" rdf:resource="mailto:servizio.territorio@regione.marche.it"/>
+    <vcard:hasURL xmlns:vcard="http://www.w3.org/2006/vcard/ns#" rdf:resource="http://www.cartografia.marche.it"/>
+    <vcard:hasTelephone xmlns:vcard="http://www.w3.org/2006/vcard/ns#" rdf:parseType="Resource">
+      <vcard:value>0718067300</vcard:value>
+      <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#TelephoneType"/>
+    </vcard:hasTelephone>
+  </dcatapit:Organization>
+  <dct:RightsStatement xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://geodati.gov.it/resource/constraints/r_marche:b934a355-656f-4f50-e18b-be8d784543a1_ID_useConstraints">
+    <rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="it">copyright</rdfs:label>
+  </dct:RightsStatement>
+  <dct:RightsStatement xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://geodati.gov.it/resource/constraints/r_marche:b934a355-656f-4f50-e18b-be8d784543a1_ID_accessConstraints">
+    <rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="it">Dato pubblico</rdfs:label>
+  </dct:RightsStatement>
+</rdf:RDF>
