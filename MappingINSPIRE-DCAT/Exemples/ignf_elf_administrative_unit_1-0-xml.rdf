@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:prov="http://www.w3.org/ns/prov#"
+    xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+    xmlns:locn="http://www.w3.org/ns/locn#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/ignf_elf_administrative_unit_1-0-xml">
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2022-07-02T06:02:45Z</dct:modified>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/ignf_elf_administrative_unit_1-0-xml"/>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransInProcess"/>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2021-10-18T09:16:54Z</dct:issued>
+    <edp:originalLanguage>fr</edp:originalLanguage>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+        <spdx:checksumValue>7b3b1a1be2e3a2f8a70e7440703b02ce</spdx:checksumValue>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <dct:identifier>IGNF_ELF_Administrative_Unit_1-0.xml</dct:identifier>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/ignf_elf_administrative_unit_1-0-xml">
+        <dcat:theme rdf:resource="http://eurovoc.europa.eu/100142"/>
+        <foaf:isPrimaryTopicOf rdf:parseType="Resource">
+        </foaf:isPrimaryTopicOf>
+        <dct:spatial>
+          <dct:Location>
+            <locn:geometry rdf:datatype="http://replacement.io/ont/geosparql#gmlLiteral"
+            >&lt;gml:Envelope srsName="http://www.opengis.net/def/EPSG/0/4326"&gt;&lt;gml:lowerCorner&gt;41.32 -5.15&lt;/gml:lowerCorner&gt;&lt;gml:upperCorner&gt;51.10 9.57&lt;/gml:upperCorner&gt;&lt;/gml:Envelope&gt;</locn:geometry>
+            <locn:geometry rdf:datatype="http://replacement.io/ont/geosparql#wktLiteral"
+            >POLYGON((-5.15 51.10,9.57 51.10,9.57 41.32,-5.15 41.32,-5.15 51.10))</locn:geometry>
+          </dct:Location>
+        </dct:spatial>
+        <dct:subject rdf:resource="http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/boundaries"/>
+        <dct:provenance>
+          <dct:ProvenanceStatement>
+            <rdfs:label xml:lang="en">Produit par l'Institut national de l'information géographique et forestière (IGN-F)</rdfs:label>
+          </dct:ProvenanceStatement>
+        </dct:provenance>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+        <dcat:theme rdf:resource="http://inspire.ec.europa.eu/theme/au"/>
+        <dct:conformsTo rdf:parseType="Resource">
+          <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+          >2010-12-08</dct:issued>
+          <dct:title xml:lang="en">Commission Regulation (EU) No 1089/2010 of 23 November 2010 implementing Directive 2007/2/EC of the European Parliament and of the Council as regards interoperability of spatial data sets and services</dct:title>
+        </dct:conformsTo>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2016-02-15</dct:issued>
+        <dct:identifier>IGNF_ELF_Administrative_Unit_1-0</dct:identifier>
+        <rdfs:comment xml:lang="en">Spatial resolution (equivalent scale): 1:10000</rdfs:comment>
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2015-09-15</dct:created>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+        <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL_2"/>
+        <dct:title xml:lang="fr">Unités administratives France métropolitaine (LoD1)</dct:title>
+        <prov:wasUsedBy>
+          <prov:Activity>
+            <prov:generated rdf:parseType="Resource">
+              <dct:description xml:lang="en">Dataset is conformant to the Inspire data specification.</dct:description>
+              <dct:type rdf:resource="http://inspire.ec.europa.eu/metadata-codelist/DegreeOfConformity/conformant"/>
+              <dct:description xml:lang="en"></dct:description>
+            </prov:generated>
+            <prov:qualifiedAssociation rdf:parseType="Resource">
+              <prov:hadPlan rdf:parseType="Resource">
+                <prov:wasDerivedFrom rdf:parseType="Resource">
+                  <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+                  >2010-12-08</dct:issued>
+                  <dct:title xml:lang="en">Commission Regulation (EU) No 1089/2010 of 23 November 2010 implementing Directive 2007/2/EC of the European Parliament and of the Council as regards interoperability of spatial data sets and services</dct:title>
+                </prov:wasDerivedFrom>
+              </prov:hadPlan>
+            </prov:qualifiedAssociation>
+          </prov:Activity>
+        </prov:wasUsedBy>
+        <dcat:theme rdf:resource="http://eurovoc.europa.eu/362"/>
+        <dct:title xml:lang="en">Administratives units French territory (LoD1)</dct:title>
+        <dcat:keyword xml:lang="en">Administrative units</dcat:keyword>
+        <dcat:landingPage>
+          <foaf:Document rdf:about="https://wxs.ign.fr/inspire/wfs?service=WFS&amp;version=2.0.0&amp;request=GetCapabilities"/>
+        </dcat:landingPage>
+        <dct:description xml:lang="fr">Unités d'administration séparées par des limites administratives et délimitant les zones dans lesquelles les États membres détiennent et/ou exercent leurs compétences, aux fins de l'administration locale, régionale et nationale</dct:description>
+        <rdfs:comment xml:lang="en">Spatial resolution (equivalent scale): 1:50000</rdfs:comment>
+        <dct:description xml:lang="en">Local administrative units separated by administrative boundaries and dividing areas where the Member States have and/or exercise juridictional rights, for local, regional and national management.</dct:description>
+        <dcat:contactPoint>
+          <vcard:Organization>
+            <vcard:organization-name>Institut national de l'information géographique et forestière (IGN-F)</vcard:organization-name>
+            <vcard:hasEmail rdf:resource="mailto:sav.bd@ign.fr"/>
+            <vcard:hasAddress>
+              <vcard:Address>
+                <vcard:postal-code>94165</vcard:postal-code>
+                <vcard:street-address>IGN - Service clients</vcard:street-address>
+                <vcard:street-address>73 avenue de Paris</vcard:street-address>
+                <vcard:country-name>France</vcard:country-name>
+                <vcard:locality>SAINT-MANDE cedex</vcard:locality>
+              </vcard:Address>
+            </vcard:hasAddress>
+          </vcard:Organization>
+        </dcat:contactPoint>
+        <dct:type rdf:resource="http://inspire.ec.europa.eu/metadata-codelist/ResourceType/series"/>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2022-07-02T06:02:45Z</edp:transIssued>
+    <dct:creator rdf:resource="http://piveau.io"/>
+  </dcat:CatalogRecord>
+</rdf:RDF>
