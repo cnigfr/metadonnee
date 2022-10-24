@@ -5,3 +5,6 @@ Exemples partiels SEMICeu : https://github.com/SEMICeu/GeoDCAT-AP/tree/gh-pages/
 
 Exemple italie : https://geodati.gov.it/
 
+Exemple suisse : https://ckan.opendata.swiss/dataset/statistisches-jahrbuch-der-schweiz-1908.xml
+
+Exemples catalogue européen : https://data.europa.eu/data/datasets/ignf_elf_administrative_unit_1-0-xml?locale=fr
