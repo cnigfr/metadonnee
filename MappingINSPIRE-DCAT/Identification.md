@@ -1,7 +1,4 @@
 <html>
- <head>
-<link rel="stylesheet" type="text/css" href="https://raw.githubusercontent.com/cnigfr/metadonnee/main/MappingINSPIRE-DCAT/style.css">
-  </head>
   <body>
 <h3><a name="md-on-md">Identification </a></h3>
 <p>Les commentaires sur ce tableau sont accessibles ici : https://github.com/cnigfr/metadonnee/issues?q=is%3Aissue+is%3Aopen+label%3AIdentification</p>
@@ -21,18 +18,18 @@
   </thead>
   <tbody>
     <tr>
-      <td colspan="2">Intitulé</td>
+      <td colspan="2"><img src="./images/fixed-5-16.png">Intitulé</td>
       <td><code>dcat:Dataset/dct:title</code></td>
       <td><code>rdf:PlainLiteral</code></td>
       <td>stable</td>
-      <td></td>
+      <td>Utilisé data.gouv.fr</td>
     </tr>
     <tr>
-      <td colspan="2">Résumé</td>
+      <td colspan="2"><img src="./images/fixed-5-16.png">Résumé</td>
       <td><code>dcat:Dataset/dct:description</code></td>
       <td><code>rdf:PlainLiteral</code></td>
       <td>stable</td>
-      <td></td>
+      <td>Utilisé data.gouv.fr</td>
     </tr>
     <tr>
       <td rowspan="5">Type de la ressource</td>
@@ -65,11 +62,11 @@
     </tr>
 <tr>
       <td rowspan="6">Localisateur de la ressource</td>
-      <td>Download</td>
-      <td><code>dcat:Distribution/dcat:accessURL</code></td>
+      <td><img src="./images/fixed-5-16.png">Download</td>
+      <td><code>dcat:Distribution/dcat:downloadURL</code></td>
       <td><code>rdfs:Resource</code></td>
       <td>stable</td>
-      <td></td>
+      <td>Modifié. dacat:AccessURL à l'origne mais downloadURL est utilisé dans data.gouv.fr</td>
     </tr>
  <tr>
       <td>Information</td>
@@ -86,7 +83,7 @@
       <td></td>
     </tr>
     <tr>
-      <td>Order</td>
+      <td><img src="./images/fixed-5-16.png">Order</td>
       <td><code>dcat:Distribution/dcat:accessURL</code></td>
       <td><code>rdfs:Resource</code></td>
       <td><em>testing</em></td>
@@ -107,11 +104,11 @@
       <td></td>
     </tr>
     <tr>
-      <td colspan="2">identificateur de ressource unique</td>
+      <td colspan="2"><img src="./images/fixed-5-16.png">identificateur de ressource unique</td>
       <td><code>dcat:Dataset/dct:identifier</code></td>
       <td><code>rdfs:Literal</code></td>
       <td><em>testing</em></td>
-      <td></td>
+      <td>data.gouv utilise uri/dct:identifier pour les identifiants sous forme d'URI. </td>
     </tr>
     <tr>
       <td colspan="2">Langue</td>
@@ -121,7 +118,7 @@
       <td></td>
     </tr>
  <tr>
-      <td colspan="2">Format / Encoding</td>
+      <td colspan="2"><img src="./images/fixed-5-16.png">Format / Encoding</td>
 <!--      
       <td><code>dcat:mediaType</code></td>
 -->      
