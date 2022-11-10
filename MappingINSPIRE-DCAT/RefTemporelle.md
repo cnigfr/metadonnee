@@ -38,7 +38,7 @@
     </tr>
     <tr>
       <td>Date de création</td>
-      <td><strong><code>V/dct:created</code></strong></td>
+      <td><strong><code>dcat:Dataset/dct:created</code></strong></td>
       <td><strong><code>xsd:date</code></strong></td>
       <td>stable</td>
       <td>Seulement pour le profil étendu</td>
