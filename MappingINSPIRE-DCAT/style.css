@@ -5,4 +5,5 @@ width: 50%;
 td, th {
 border: thin solid #6495ed;
 width: 50%;
+background-color: red;
 }
