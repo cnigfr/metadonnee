@@ -16,21 +16,21 @@
   <tbody>
  <tr>
       <td rowspan="4">Référence temporelle</td>
-      <td>Etendue temporelle</td>
+      <td><img src="./images/fixed-5-16.png">Etendue temporelle</td>
       <td><code>dcat:Dataset/dct:temporal</code></td>
       <td><code>dct:PeriodOfTime</code></td>
       <td>stable</td>
       <td></td>
     </tr>   
  <tr>
-      <td>Date de publication</td>
+      <td><img src="./images/fixed-5-16.png">Date de publication</td>
       <td><code>dcat:Dataset/dct:issued</code></td>
       <td><code>xsd:date</code></td>
       <td>stable</td>
       <td></td>
     </tr>
     <tr>
-      <td>Date de dernière révision</td>
+      <td><img src="./images/fixed-5-16.png">Date de dernière révision</td>
       <td><code>dcat:Dataset/dct:modified</code></td>
       <td><code>xsd:date</code></td>
       <td>stable</td>
