@@ -1,6 +1,6 @@
 <h3><a name="md-on-md">Mots-clé</a></h3>
 <p>Le domaine du mapping est <code>dcat:Dataset</code>.</p>
-
+<p> Le <img src="./images/fixed-5-16.png"> indiquent les éléments qui correspondent avec ceux utilisés lors du moissonnage de data.gouv.fr.</p>
 <table>
   <thead>
     <tr>
@@ -16,7 +16,7 @@
   </thead>
   <tbody>
 <tr>
-      <td rowspan="2" colspan="2" >Keyword</td>
+      <td rowspan="2" colspan="2" ><img src="./images/fixed-5-16.png">Keyword</td>
       <td><code>dcat:theme</code></td>
       <td><code>skos:Concept</code></td>
       <td>stable</td>
