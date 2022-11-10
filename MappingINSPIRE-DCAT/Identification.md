@@ -1,3 +1,8 @@
+<html>
+ <head>
+<link rel="stylesheet" type="text/css" href="https://raw.githubusercontent.com/cnigfr/metadonnee/main/MappingINSPIRE-DCAT/style.css">
+  </head>
+  <body>
 <h3><a name="md-on-md">Identification </a></h3>
 <p>Les commentaires sur ce tableau sont accessibles ici : https://github.com/cnigfr/metadonnee/issues?q=is%3Aissue+is%3Aopen+label%3AIdentification</p>
 
@@ -141,4 +146,5 @@
     </tr>
   </tbody>
 </table>
-
+  </body>
+  </html>
