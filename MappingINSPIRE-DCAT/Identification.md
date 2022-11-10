@@ -2,7 +2,7 @@
   <body>
 <h3><a name="md-on-md">Identification </a></h3>
 <p>Les commentaires sur ce tableau sont accessibles ici : https://github.com/cnigfr/metadonnee/issues?q=is%3Aissue+is%3Aopen+label%3AIdentification</p>
-
+<p>Les <img src="./images/fixed-5-16.png"> indiquent les éléments qui correspondent aux éléments utilisés dans le moissonnage de data.gouv.fr. </p>
 <table>
   <thead>
     <tr>
