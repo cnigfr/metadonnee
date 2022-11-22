@@ -21,6 +21,8 @@ flowchart LR;
     ISO-->A8;
     ISO-->A9;
     X1[AUTRES METADONNEES]-->Y1[CATALOGUE DE DONNEE];
+    X1-->Y2[FREQUENCE DE MISE A JOUR];
+    Y2-->ACCPER["dct:accrualPeriodicity"]:::dct;
     
     	A1[IDENTIFICATION DES DONNEES]-->B[INTITULE DE LA RESSOURCE];
 		click A1 "https://github.com/cnigfr/metadonnee/blob/main/MappingINSPIRE-DCAT/Identification.md"
