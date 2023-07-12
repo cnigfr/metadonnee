@@ -1,14 +1,5 @@
 ## Intitulé de la ressource
 
-***Exigence INSPIRE :***
-
--   L'intitulé (ou le titre) de la ressource doit être un nom
-    caractéristique et souvent unique sous lequel la ressource est
-    connue.
-
--   Cet élément est une chaîne de caractères obligatoire (texte libre)
-    et ne peut pas être répété.
-
 ***Commentaire***
 
 Le titre doit viser à être **caractéristique** et **unique.** Ceci
@@ -74,25 +65,3 @@ la région Bretagne]{.mark}
 Cartes Utiles, Zonages du PLU, NNDirection Départementale des
 Territoires20060003 PPRi BrayeAmont.
 
-Reference technique
-
-  ------------------ ----------------------------------------------------
-  Xpath ISO 19115    identificationInfo\[1\]/\*/citation/\*/title
-
-  Exemple XML        \<gmd:MD_Metadata\>\
-                     \...\
-                     \<gmd:identificationInfo\>\
-                     \<gmd:MD_DataIdentification\>\
-                     \<gmd:citation\>\
-                     \<gmd:CI_Citation\>\
-                     \<gmd:title\>\
-                     \<gco:CharacterString\>Plan de Prévention du Risque
-                     Inondation (PPRI) de Paris\</gco:CharacterString\>\
-                     \</gmd:title\>\
-                     \</gmd:CI_Citation\>\
-                     \</gmd:citation\>\
-                     \</gmd:MD_DataIdentification\>\
-                     \</gmd:identificationInfo\>\
-                     \...\
-                     \</gmd:MD_Metadata\>
-  ------------------ ----------------------------------------------------
