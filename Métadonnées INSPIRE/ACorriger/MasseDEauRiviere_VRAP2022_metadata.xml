@@ -1,0 +1,826 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xmlns:gco="http://www.isotc211.org/2005/gco"
+                 xmlns:srv="http://www.isotc211.org/2005/srv"
+                 xmlns:gmx="http://www.isotc211.org/2005/gmx"
+                 xmlns:gts="http://www.isotc211.org/2005/gts"
+                 xmlns:gsr="http://www.isotc211.org/2005/gsr"
+                 xmlns:gmi="http://www.isotc211.org/2005/gmi"
+                 xmlns:gml="http://www.opengis.net/gml/3.2"
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://schemas.opengis.net/csw/2.0.2/profiles/apiso/1.0.0/apiso.xsd">
+  <gmd:fileIdentifier>
+      <gco:CharacterString>95dfaccc-529c-47b3-b2cf-cf71c64f5cf1</gco:CharacterString>
+  </gmd:fileIdentifier>
+  <gmd:language>
+      <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="fre"/>
+  </gmd:language>
+  <gmd:characterSet>
+      <gmd:MD_CharacterSetCode codeListValue="utf8"
+                               codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_CharacterSetCode"/>
+  </gmd:characterSet>
+  <gmd:parentIdentifier>
+      <gco:CharacterString>653b6d1c-9ee1-4a83-83ae-ecf02c4ffd09</gco:CharacterString>
+  </gmd:parentIdentifier>
+  <gmd:hierarchyLevel>
+      <gmd:MD_ScopeCode codeListValue="dataset"
+                        codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_ScopeCode"/>
+  </gmd:hierarchyLevel>
+  <gmd:hierarchyLevelName>
+      <gco:CharacterString>dataset</gco:CharacterString>
+  </gmd:hierarchyLevelName>
+  <gmd:contact>
+      <gmd:CI_ResponsibleParty>
+         <gmd:individualName gco:nilReason="missing">
+            <gco:CharacterString/>
+         </gmd:individualName>
+         <gmd:organisationName>
+            <gco:CharacterString>SANDRE</gco:CharacterString>
+         </gmd:organisationName>
+         <gmd:positionName gco:nilReason="missing">
+            <gco:CharacterString/>
+         </gmd:positionName>
+         <gmd:contactInfo>
+            <gmd:CI_Contact>
+               <gmd:phone>
+                  <gmd:CI_Telephone>
+                     <gmd:voice>
+                        <gco:CharacterString>+33555114790</gco:CharacterString>
+                     </gmd:voice>
+                     <gmd:facsimile>
+                        <gco:CharacterString>+33555114748</gco:CharacterString>
+                     </gmd:facsimile>
+                  </gmd:CI_Telephone>
+               </gmd:phone>
+               <gmd:address>
+                  <gmd:CI_Address>
+                     <gmd:deliveryPoint>
+                        <gco:CharacterString>Rue Edouard Chamberland</gco:CharacterString>
+                     </gmd:deliveryPoint>
+                     <gmd:city>
+                        <gco:CharacterString>LIMOGES</gco:CharacterString>
+                     </gmd:city>
+                     <gmd:administrativeArea>
+                        <gco:CharacterString>HAUTE-VIENNE</gco:CharacterString>
+                     </gmd:administrativeArea>
+                     <gmd:postalCode>
+                        <gco:CharacterString>87000</gco:CharacterString>
+                     </gmd:postalCode>
+                     <gmd:country>
+                        <gco:CharacterString>France</gco:CharacterString>
+                     </gmd:country>
+                     <gmd:electronicMailAddress>
+                        <gco:CharacterString>sandre@sandre.eaufrance.fr</gco:CharacterString>
+                     </gmd:electronicMailAddress>
+                  </gmd:CI_Address>
+               </gmd:address>
+            </gmd:CI_Contact>
+         </gmd:contactInfo>
+         <gmd:role>
+            <gmd:CI_RoleCode codeListValue="pointOfContact"
+                             codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode"/>
+         </gmd:role>
+      </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:dateStamp>
+      <gco:DateTime>2022-09-01T10:03:34</gco:DateTime>
+  </gmd:dateStamp>
+  <gmd:metadataStandardName>
+      <gco:CharacterString>ISO 19115:2003/19139</gco:CharacterString>
+  </gmd:metadataStandardName>
+  <gmd:metadataStandardVersion>
+      <gco:CharacterString>&gt;2003/Cor.1:2006</gco:CharacterString>
+  </gmd:metadataStandardVersion>
+  <gmd:referenceSystemInfo>
+      <gmd:MD_ReferenceSystem>
+         <gmd:referenceSystemIdentifier>
+            <gmd:RS_Identifier>
+               <gmd:code>
+                  <gmx:Anchor xlink:href="http://www.opengis.net/def/crs/EPSG/0/4326" xlink:title="WGS84">4326</gmx:Anchor>
+               </gmd:code>
+               <gmd:codeSpace>
+                  <gco:CharacterString>EPSG</gco:CharacterString>
+               </gmd:codeSpace>
+            </gmd:RS_Identifier>
+         </gmd:referenceSystemIdentifier>
+      </gmd:MD_ReferenceSystem>
+  </gmd:referenceSystemInfo>
+  <gmd:identificationInfo>
+      <gmd:MD_DataIdentification>
+         <gmd:citation>
+            <gmd:CI_Citation>
+               <gmd:title>
+                  <gco:CharacterString>Masses d'eau cours d'eau - France Entière - Version Rapportage 2022</gco:CharacterString>
+               </gmd:title>
+               <gmd:date>
+                  <gmd:CI_Date>
+                     <gmd:date>
+                        <gco:DateTime>2021-07-08T13:43:37</gco:DateTime>
+                     </gmd:date>
+                     <gmd:dateType>
+                        <gmd:CI_DateTypeCode codeListValue="publication"
+                                             codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode"/>
+                     </gmd:dateType>
+                  </gmd:CI_Date>
+               </gmd:date>
+               <gmd:edition>
+                  <gco:CharacterString>2022</gco:CharacterString>
+               </gmd:edition>
+               <gmd:identifier>
+                  <gmd:MD_Identifier>
+                     <gmd:code>
+                        <gco:CharacterString>http://www.sandre.eaufrance.fr/?urn=urn:sandre:donnees:MasseDEauRiviere:FRA:::ressource:2022::VRAP:html</gco:CharacterString>
+                     </gmd:code>
+                  </gmd:MD_Identifier>
+               </gmd:identifier>
+               <gmd:presentationForm>
+                  <gmd:CI_PresentationFormCode codeListValue="mapDigital"
+                                               codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_PresentationFormCode"/>
+               </gmd:presentationForm>
+            </gmd:CI_Citation>
+         </gmd:citation>
+         <gmd:abstract>
+            <gco:CharacterString>Une masse d'eau de rivière est une partie distincte et significative des eaux de surface telles qu'une rivière, un fleuve ou un canal, une partie de rivière, de fleuve ou de canal, constituant le découpage élémentaire des milieux aquatiques destinée à être l'unité d'évaluation de la DCE.
+
+Les critères de réalisation des masses d'eau rivière sont :
+- Une masse d’eau appartient à une seule hydroécorégion ;
+- Le peuplement piscicole dominant basé sur le contexte piscicole (Salmonicole, Cyprinicole, Intermédiaire) ;
+- Classe de taille (rang de confluence de Strahler).
+
+Correspondance rapportage DCE : cette entité correspond au concept de Surface Water Body Line de WISE.
+
+Les couches sont diffusées dans un format conforme au dictionnaire de données SANDRE du Référentiel masse d’eau, version 1.4.</gco:CharacterString>
+         </gmd:abstract>
+         <gmd:purpose gco:nilReason="missing">
+            <gco:CharacterString/>
+         </gmd:purpose>
+         <gmd:status>
+            <gmd:MD_ProgressCode codeListValue="completed"
+                                 codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_ProgressCode"/>
+         </gmd:status>
+         <gmd:pointOfContact>
+            <gmd:CI_ResponsibleParty>
+               <gmd:individualName gco:nilReason="missing">
+                  <gco:CharacterString/>
+               </gmd:individualName>
+               <gmd:organisationName>
+                  <gco:CharacterString>SANDRE</gco:CharacterString>
+               </gmd:organisationName>
+               <gmd:positionName gco:nilReason="missing">
+                  <gco:CharacterString/>
+               </gmd:positionName>
+               <gmd:contactInfo>
+                  <gmd:CI_Contact>
+                     <gmd:phone>
+                        <gmd:CI_Telephone>
+                           <gmd:voice>
+                              <gco:CharacterString>+33555114790</gco:CharacterString>
+                           </gmd:voice>
+                           <gmd:facsimile>
+                              <gco:CharacterString>+33555114748</gco:CharacterString>
+                           </gmd:facsimile>
+                        </gmd:CI_Telephone>
+                     </gmd:phone>
+                     <gmd:address>
+                        <gmd:CI_Address>
+                           <gmd:deliveryPoint gco:nilReason="missing">
+                              <gco:CharacterString/>
+                           </gmd:deliveryPoint>
+                           <gmd:city>
+                              <gco:CharacterString>LIMOGES</gco:CharacterString>
+                           </gmd:city>
+                           <gmd:administrativeArea>
+                              <gco:CharacterString>HAUTE-VIENNE</gco:CharacterString>
+                           </gmd:administrativeArea>
+                           <gmd:postalCode>
+                              <gco:CharacterString>87000</gco:CharacterString>
+                           </gmd:postalCode>
+                           <gmd:country>
+                              <gco:CharacterString>FRANCE</gco:CharacterString>
+                           </gmd:country>
+                           <gmd:electronicMailAddress>
+                              <gco:CharacterString>sandre@sandre.eaufrance.fr</gco:CharacterString>
+                           </gmd:electronicMailAddress>
+                        </gmd:CI_Address>
+                     </gmd:address>
+                  </gmd:CI_Contact>
+               </gmd:contactInfo>
+               <gmd:role>
+                  <gmd:CI_RoleCode codeListValue="pointOfContact"
+                                   codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode"/>
+               </gmd:role>
+            </gmd:CI_ResponsibleParty>
+         </gmd:pointOfContact>
+         <gmd:resourceMaintenance>
+            <gmd:MD_MaintenanceInformation>
+               <gmd:maintenanceAndUpdateFrequency>
+                  <gmd:MD_MaintenanceFrequencyCode codeListValue="asNeeded"
+                                                   codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_MaintenanceFrequencyCode"/>
+               </gmd:maintenanceAndUpdateFrequency>
+            </gmd:MD_MaintenanceInformation>
+         </gmd:resourceMaintenance>
+         <gmd:graphicOverview>
+            <gmd:MD_BrowseGraphic>
+               <gmd:fileName>
+                  <gco:CharacterString>http://services.sandre.eaufrance.fr/telechargement/geo/MDO/MasseDEau/vedl_2019/Imagettes/MasseDEauRiviere_FRA.png</gco:CharacterString>
+               </gmd:fileName>
+            </gmd:MD_BrowseGraphic>
+         </gmd:graphicOverview>
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords>
+               <gmd:keyword>
+                  <gco:CharacterString>politique de l'environnement</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>directive cadre eau</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>eau continentale</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>eau de surface</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>cours d'eau</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>masse d'eau</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>masse d'eau de surface</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>riviere</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:type>
+                  <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_KeywordTypeCode"
+                                          codeListValue="theme"/>
+               </gmd:type>
+               <gmd:thesaurusName>
+                  <gmd:CI_Citation>
+                     <gmd:title>
+                        <gco:CharacterString>Thésaurus Eau</gco:CharacterString>
+                     </gmd:title>
+                     <gmd:date>
+                        <gmd:CI_Date>
+                           <gmd:date>
+                              <gco:Date>2017-08-23</gco:Date>
+                           </gmd:date>
+                           <gmd:dateType>
+                              <gmd:CI_DateTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode"
+                                                   codeListValue="publication"/>
+                           </gmd:dateType>
+                        </gmd:CI_Date>
+                     </gmd:date>
+                  </gmd:CI_Citation>
+               </gmd:thesaurusName>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords>
+               <gmd:keyword>
+                  <gco:CharacterString>VRAP</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>DCE</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Données de références (référentiels, vocabulaire contrôlé)</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>données ouvertes</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:type>
+                  <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_KeywordTypeCode"
+                                          codeListValue="theme"/>
+               </gmd:type>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords>
+               <gmd:keyword>
+                  <gco:CharacterString>Zones de gestion, de restriction ou de réglementation et unités de déclaration</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:type>
+                  <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_KeywordTypeCode"
+                                          codeListValue="theme"/>
+               </gmd:type>
+               <gmd:thesaurusName>
+                  <gmd:CI_Citation>
+                     <gmd:title>
+                        <gco:CharacterString>GEMET - INSPIRE themes, version 1.0</gco:CharacterString>
+                     </gmd:title>
+                     <gmd:date>
+                        <gmd:CI_Date>
+                           <gmd:date>
+                              <gco:Date>2008-06-01</gco:Date>
+                           </gmd:date>
+                           <gmd:dateType>
+                              <gmd:CI_DateTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode"
+                                                   codeListValue="publication"/>
+                           </gmd:dateType>
+                        </gmd:CI_Date>
+                     </gmd:date>
+                     <gmd:identifier>
+                        <gmd:MD_Identifier>
+                           <gmd:code>
+                              <gmx:Anchor xlink:href="http://www.sandre.eaufrance.fr/atlas/srv/eng/thesaurus.download?ref=external.theme.httpinspireeceuropaeutheme-theme">geonetwork.thesaurus.external.theme.httpinspireeceuropaeutheme-theme</gmx:Anchor>
+                           </gmd:code>
+                        </gmd:MD_Identifier>
+                     </gmd:identifier>
+                  </gmd:CI_Citation>
+               </gmd:thesaurusName>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords>
+               <gmd:keyword>
+                  <gco:CharacterString>FRANCE</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>FRANCE ENTIERE</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>FRA</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:type>
+                  <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_KeywordTypeCode"
+                                          codeListValue="place"/>
+               </gmd:type>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>Données ouvertes</gco:CharacterString>
+               </gmd:useLimitation>
+               <gmd:accessConstraints>
+                  <gmd:MD_RestrictionCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_RestrictionCode"
+                                          codeListValue="otherRestrictions"/>
+               </gmd:accessConstraints>
+               <gmd:otherConstraints>
+                  <gmx:Anchor xlink:href="http://inspire.ec.europa.eu/metadata-codelist/LimitationsOnPublicAccess/noLimitations">Pas de restriction d’accès public</gmx:Anchor>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useConstraints>
+                  <gmd:MD_RestrictionCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_RestrictionCode"
+                                          codeListValue="otherRestrictions"/>
+               </gmd:useConstraints>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>Licence Ouverte 1.0 https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Licence_Ouverte.pdf</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
+         <gmd:spatialRepresentationType>
+            <gmd:MD_SpatialRepresentationTypeCode codeListValue="vector"
+                                                  codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_SpatialRepresentationTypeCode"/>
+         </gmd:spatialRepresentationType>
+         <gmd:spatialResolution>
+            <gmd:MD_Resolution>
+               <gmd:equivalentScale>
+                  <gmd:MD_RepresentativeFraction>
+                     <gmd:denominator>
+                        <gco:Integer>100000</gco:Integer>
+                     </gmd:denominator>
+                  </gmd:MD_RepresentativeFraction>
+               </gmd:equivalentScale>
+            </gmd:MD_Resolution>
+         </gmd:spatialResolution>
+         <gmd:language>
+            <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="fre">Français</gmd:LanguageCode>
+         </gmd:language>
+         <gmd:characterSet>
+            <gmd:MD_CharacterSetCode codeListValue="utf8"
+                                     codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_CharacterSetCode"/>
+         </gmd:characterSet>
+         <gmd:topicCategory>
+            <gmd:MD_TopicCategoryCode>inlandWaters</gmd:MD_TopicCategoryCode>
+         </gmd:topicCategory>
+         <gmd:extent>
+            <gmd:EX_Extent>
+               <gmd:geographicElement>
+                  <gmd:EX_GeographicBoundingBox>
+                     <gmd:westBoundLongitude>
+                        <gco:Decimal>-61.798</gco:Decimal>
+                     </gmd:westBoundLongitude>
+                     <gmd:eastBoundLongitude>
+                        <gco:Decimal>55.855</gco:Decimal>
+                     </gmd:eastBoundLongitude>
+                     <gmd:southBoundLatitude>
+                        <gco:Decimal>-21.371</gco:Decimal>
+                     </gmd:southBoundLatitude>
+                     <gmd:northBoundLatitude>
+                        <gco:Decimal>51.088</gco:Decimal>
+                     </gmd:northBoundLatitude>
+                  </gmd:EX_GeographicBoundingBox>
+               </gmd:geographicElement>
+            </gmd:EX_Extent>
+         </gmd:extent>
+         <gmd:supplementalInformation gco:nilReason="missing">
+            <gco:CharacterString/>
+         </gmd:supplementalInformation>
+      </gmd:MD_DataIdentification>
+  </gmd:identificationInfo>
+  <gmd:distributionInfo>
+      <gmd:MD_Distribution>
+         <gmd:distributionFormat>
+            <gmd:MD_Format>
+               <gmd:name>
+                  <gco:CharacterString>ESRI Shapefile</gco:CharacterString>
+               </gmd:name>
+               <gmd:version>
+                  <gco:CharacterString>1998</gco:CharacterString>
+               </gmd:version>
+            </gmd:MD_Format>
+         </gmd:distributionFormat>
+         <gmd:distributionFormat>
+            <gmd:MD_Format>
+               <gmd:name>
+                  <gco:CharacterString>MIF / MID</gco:CharacterString>
+               </gmd:name>
+               <gmd:version>
+                  <gco:CharacterString>MapInfo 10</gco:CharacterString>
+               </gmd:version>
+            </gmd:MD_Format>
+         </gmd:distributionFormat>
+         <gmd:transferOptions>
+            <gmd:MD_DigitalTransferOptions>
+               <gmd:onLine>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL>https://id.eaufrance.fr/ddd/MDO/1.4/MasseDEauRiviere</gmd:URL>
+                     </gmd:linkage>
+                     <gmd:protocol>
+                        <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+                     </gmd:protocol>
+                     <gmd:name>
+                        <gco:CharacterString>Consulter le dictionnaire Masses d'eau (MDO)</gco:CharacterString>
+                     </gmd:name>
+                     <gmd:description>
+                        <gco:CharacterString>Version 1.4</gco:CharacterString>
+                     </gmd:description>
+                     <gmd:function>
+                        <gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode"
+                                                   codeListValue="information"/>
+                     </gmd:function>
+                  </gmd:CI_OnlineResource>
+               </gmd:onLine>
+               <gmd:onLine>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL>https://www.sandre.eaufrance.fr/notice-doc/diffusion-du-référentiel-des-masses-deau-vedl-2019-aux-formats-géographiques</gmd:URL>
+                     </gmd:linkage>
+                     <gmd:protocol>
+                        <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+                     </gmd:protocol>
+                     <gmd:name>
+                        <gco:CharacterString>Consulter le scénario d'échange géographique</gco:CharacterString>
+                     </gmd:name>
+                     <gmd:description>
+                        <gco:CharacterString>Version 1.2</gco:CharacterString>
+                     </gmd:description>
+                     <gmd:function>
+                        <gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode"
+                                                   codeListValue="information"/>
+                     </gmd:function>
+                  </gmd:CI_OnlineResource>
+               </gmd:onLine>
+               <gmd:onLine>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL>https://mdm.sandre.eaufrance.fr/geo/rapportsv3/rapport/</gmd:URL>
+                     </gmd:linkage>
+                     <gmd:protocol>
+                        <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+                     </gmd:protocol>
+                     <gmd:name>
+                        <gco:CharacterString>Consulter le rapport de contrôles en ligne</gco:CharacterString>
+                     </gmd:name>
+                     <gmd:description>
+                        <gco:CharacterString>Contrôles de conformité réalisés sur le jeu de données</gco:CharacterString>
+                     </gmd:description>
+                     <gmd:function>
+                        <gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode"
+                                                   codeListValue="information"/>
+                     </gmd:function>
+                  </gmd:CI_OnlineResource>
+               </gmd:onLine>
+               <gmd:onLine>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL>https://services.sandre.eaufrance.fr/geo/MasseDEau_VRAP2022?</gmd:URL>
+                     </gmd:linkage>
+                     <gmd:protocol>
+                        <gco:CharacterString>OGC:WMS</gco:CharacterString>
+                     </gmd:protocol>
+                     <gmd:name>
+                        <gco:CharacterString>MasseDEauRiviere_VRAP2022</gco:CharacterString>
+                     </gmd:name>
+                     <gmd:description>
+                        <gco:CharacterString>Masses d'eau cours d'eau - VRAP 2022 - France entière</gco:CharacterString>
+                     </gmd:description>
+                  </gmd:CI_OnlineResource>
+               </gmd:onLine>
+               <gmd:onLine>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL>https://services.sandre.eaufrance.fr/geo/MasseDEau_VRAP2022?</gmd:URL>
+                     </gmd:linkage>
+                     <gmd:protocol>
+                        <gco:CharacterString>OGC:WFS</gco:CharacterString>
+                     </gmd:protocol>
+                     <gmd:name>
+                        <gco:CharacterString>MasseDEauRiviere_VRAP2022</gco:CharacterString>
+                     </gmd:name>
+                     <gmd:description>
+                        <gco:CharacterString>Masses d'eau cours d'eau  - VRAP 2022 - France entière</gco:CharacterString>
+                     </gmd:description>
+                  </gmd:CI_OnlineResource>
+               </gmd:onLine>
+               <gmd:onLine>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL>https://services.sandre.eaufrance.fr/telechargement/geo/MDO/MasseDEau/vrap_2022/MasseDEauRiviere/MasseDEauRiviere_FRA-shp.zip</gmd:URL>
+                     </gmd:linkage>
+                     <gmd:protocol>
+                        <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+                     </gmd:protocol>
+                     <gmd:name>
+                        <gco:CharacterString>Téléchargement des données - Format ESRI Shapefile</gco:CharacterString>
+                     </gmd:name>
+                     <gmd:function>
+                        <gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode"
+                                                   codeListValue="download"/>
+                     </gmd:function>
+                  </gmd:CI_OnlineResource>
+               </gmd:onLine>
+               <gmd:onLine>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL>https://services.sandre.eaufrance.fr/telechargement/geo/MDO/MasseDEau/vrap_2022/MasseDEauRiviere/MasseDEauRiviere_FRA-mif.zip</gmd:URL>
+                     </gmd:linkage>
+                     <gmd:protocol>
+                        <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+                     </gmd:protocol>
+                     <gmd:name>
+                        <gco:CharacterString>Téléchargement des données - Format MIF/MID</gco:CharacterString>
+                     </gmd:name>
+                     <gmd:function>
+                        <gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode"
+                                                   codeListValue="download"/>
+                     </gmd:function>
+                  </gmd:CI_OnlineResource>
+               </gmd:onLine>
+            </gmd:MD_DigitalTransferOptions>
+         </gmd:transferOptions>
+      </gmd:MD_Distribution>
+  </gmd:distributionInfo>
+  <gmd:dataQualityInfo>
+      <gmd:DQ_DataQuality>
+         <gmd:scope>
+            <gmd:DQ_Scope>
+               <gmd:level>
+                  <gmd:MD_ScopeCode codeListValue="dataset"
+                                    codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_ScopeCode"/>
+               </gmd:level>
+            </gmd:DQ_Scope>
+         </gmd:scope>
+         <gmd:report>
+            <gmd:DQ_DomainConsistency>
+               <gmd:nameOfMeasure>
+                  <gco:CharacterString>Conceptual schema compliance</gco:CharacterString>
+               </gmd:nameOfMeasure>
+               <gmd:nameOfMeasure>
+                  <gco:CharacterString>Value domain conformance</gco:CharacterString>
+               </gmd:nameOfMeasure>
+               <gmd:dateTime>
+                  <gco:DateTime>2020-07-20T00:00:00</gco:DateTime>
+               </gmd:dateTime>
+               <gmd:result>
+                  <gmd:DQ_ConformanceResult>
+                     <gmd:specification>
+                        <gmd:CI_Citation>
+                           <gmd:title>
+                              <gco:CharacterString>Diffusion du référentiel des Masses d'eau Version État Des Lieux 2019 aux formats géographiques v.1.2</gco:CharacterString>
+                           </gmd:title>
+                           <gmd:date>
+                              <gmd:CI_Date>
+                                 <gmd:date>
+                                    <gco:Date>2017-04-25</gco:Date>
+                                 </gmd:date>
+                                 <gmd:dateType>
+                                    <gmd:CI_DateTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode"
+                                                         codeListValue="creation"/>
+                                 </gmd:dateType>
+                              </gmd:CI_Date>
+                           </gmd:date>
+                           <gmd:identifier>
+                              <gmd:MD_Identifier>
+                                 <gmd:code>
+                                    <gco:CharacterString>urn:sandre:scenario-dechanges:MasseDEau_VRAP2019::::ressource:1.2:::</gco:CharacterString>
+                                 </gmd:code>
+                              </gmd:MD_Identifier>
+                           </gmd:identifier>
+                           <gmd:citedResponsibleParty>
+                              <gmd:CI_ResponsibleParty>
+                                 <gmd:organisationName>
+                                    <gco:CharacterString>SANDRE</gco:CharacterString>
+                                 </gmd:organisationName>
+                                 <gmd:contactInfo>
+                                    <gmd:CI_Contact>
+                                       <gmd:phone>
+                                          <gmd:CI_Telephone>
+                                             <gmd:voice>
+                                                <gco:CharacterString>+33 5 55 11 47 90</gco:CharacterString>
+                                             </gmd:voice>
+                                          </gmd:CI_Telephone>
+                                       </gmd:phone>
+                                       <gmd:address>
+                                          <gmd:CI_Address>
+                                             <gmd:deliveryPoint>
+                                                <gco:CharacterString>15 rue Edouard Chamberland</gco:CharacterString>
+                                             </gmd:deliveryPoint>
+                                             <gmd:city>
+                                                <gco:CharacterString>Limoges</gco:CharacterString>
+                                             </gmd:city>
+                                             <gmd:administrativeArea>
+                                                <gco:CharacterString>Haute-Vienne</gco:CharacterString>
+                                             </gmd:administrativeArea>
+                                             <gmd:postalCode>
+                                                <gco:CharacterString>87000</gco:CharacterString>
+                                             </gmd:postalCode>
+                                             <gmd:country>
+                                                <gco:CharacterString>France</gco:CharacterString>
+                                             </gmd:country>
+                                             <gmd:electronicMailAddress>
+                                                <gco:CharacterString>sandre@sandre.eaufrance.fr</gco:CharacterString>
+                                             </gmd:electronicMailAddress>
+                                          </gmd:CI_Address>
+                                       </gmd:address>
+                                    </gmd:CI_Contact>
+                                 </gmd:contactInfo>
+                                 <gmd:role>
+                                    <gmd:CI_RoleCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode"
+                                                     codeListValue="author"/>
+                                 </gmd:role>
+                              </gmd:CI_ResponsibleParty>
+                           </gmd:citedResponsibleParty>
+                        </gmd:CI_Citation>
+                     </gmd:specification>
+                     <gmd:explanation gco:nilReason="missing">
+                        <gco:CharacterString/>
+                     </gmd:explanation>
+                     <gmd:pass>
+                        <gco:Boolean>true</gco:Boolean>
+                     </gmd:pass>
+                  </gmd:DQ_ConformanceResult>
+               </gmd:result>
+               <gmd:result>
+                  <gmd:DQ_ConformanceResult>
+                     <gmd:specification>
+                        <gmd:CI_Citation>
+                           <gmd:title>
+                              <gco:CharacterString>COMMISSION REGULATION (EU) No 1089/2010 of 23 November 2010 implementing Directive 2007/2/EC of the European Parliament and of the Council as regards interoperability of spatial data sets and services</gco:CharacterString>
+                           </gmd:title>
+                           <gmd:date>
+                              <gmd:CI_Date>
+                                 <gmd:date>
+                                    <gco:Date>2010-12-08</gco:Date>
+                                 </gmd:date>
+                                 <gmd:dateType>
+                                    <gmd:CI_DateTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode"
+                                                         codeListValue="publication"/>
+                                 </gmd:dateType>
+                              </gmd:CI_Date>
+                           </gmd:date>
+                        </gmd:CI_Citation>
+                     </gmd:specification>
+                     <gmd:explanation gco:nilReason="missing">
+                        <gco:CharacterString/>
+                     </gmd:explanation>
+                     <gmd:pass>
+                        <gco:Boolean>false</gco:Boolean>
+                     </gmd:pass>
+                  </gmd:DQ_ConformanceResult>
+               </gmd:result>
+            </gmd:DQ_DomainConsistency>
+         </gmd:report>
+         <gmd:report>
+            <gmd:DQ_DomainConsistency>
+               <gmd:result>
+                  <gmd:DQ_ConformanceResult>
+                     <gmd:specification>
+                        <gmd:CI_Citation>
+                           <gmd:title>
+                              <gco:CharacterString>INSPIRE Data Specification on on Area Management/Restriction/Regulation Zones and Reporting Units - Technical Guidelines v 3.0</gco:CharacterString>
+                           </gmd:title>
+                           <gmd:date>
+                              <gmd:CI_Date>
+                                 <gmd:date>
+                                    <gco:Date>2013-12-10</gco:Date>
+                                 </gmd:date>
+                                 <gmd:dateType>
+                                    <gmd:CI_DateTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode"
+                                                         codeListValue="publication"/>
+                                 </gmd:dateType>
+                              </gmd:CI_Date>
+                           </gmd:date>
+                           <gmd:editionDate>
+                              <gco:Date>2013-12-10</gco:Date>
+                           </gmd:editionDate>
+                           <gmd:identifier>
+                              <gmd:MD_Identifier>
+                                 <gmd:code>
+                                    <gmx:Anchor xlink:href="https://inspire.ec.europa.eu/id/document/tg/am">INSPIRE Data Specification on Area Management/Restriction/Regulation Zones and Reporting Units – Technical Guidelines</gmx:Anchor>
+                                 </gmd:code>
+                              </gmd:MD_Identifier>
+                           </gmd:identifier>
+                        </gmd:CI_Citation>
+                     </gmd:specification>
+                     <gmd:explanation gco:nilReason="missing">
+                        <gco:CharacterString/>
+                     </gmd:explanation>
+                     <gmd:pass>
+                        <gco:Boolean>false</gco:Boolean>
+                     </gmd:pass>
+                  </gmd:DQ_ConformanceResult>
+               </gmd:result>
+            </gmd:DQ_DomainConsistency>
+         </gmd:report>
+         <gmd:lineage>
+            <gmd:LI_Lineage>
+               <gmd:statement>
+                  <gco:CharacterString>Mise à jour sur la base des informations transmises par les Agences de l'Eau</gco:CharacterString>
+               </gmd:statement>
+               <gmd:processStep>
+                  <gmd:LI_ProcessStep>
+                     <gmd:description>
+                        <gco:CharacterString>Intégration données Rapportage 2022</gco:CharacterString>
+                     </gmd:description>
+                     <gmd:dateTime>
+                        <gco:DateTime>2020-10-06T00:00:00</gco:DateTime>
+                     </gmd:dateTime>
+                     <gmd:processor>
+                        <gmd:CI_ResponsibleParty>
+                           <gmd:individualName gco:nilReason="missing">
+                              <gco:CharacterString/>
+                           </gmd:individualName>
+                           <gmd:organisationName>
+                              <gco:CharacterString>SANDRE</gco:CharacterString>
+                           </gmd:organisationName>
+                           <gmd:positionName gco:nilReason="missing">
+                              <gco:CharacterString/>
+                           </gmd:positionName>
+                           <gmd:contactInfo>
+                              <gmd:CI_Contact>
+                                 <gmd:phone>
+                                    <gmd:CI_Telephone>
+                                       <gmd:voice>
+                                          <gco:CharacterString>+33555114790</gco:CharacterString>
+                                       </gmd:voice>
+                                       <gmd:facsimile>
+                                          <gco:CharacterString>+33555114748</gco:CharacterString>
+                                       </gmd:facsimile>
+                                    </gmd:CI_Telephone>
+                                 </gmd:phone>
+                                 <gmd:address>
+                                    <gmd:CI_Address>
+                                       <gmd:deliveryPoint gco:nilReason="missing">
+                                          <gco:CharacterString/>
+                                       </gmd:deliveryPoint>
+                                       <gmd:city>
+                                          <gco:CharacterString>LIMOGES</gco:CharacterString>
+                                       </gmd:city>
+                                       <gmd:administrativeArea>
+                                          <gco:CharacterString>HAUTE-VIENNE</gco:CharacterString>
+                                       </gmd:administrativeArea>
+                                       <gmd:postalCode>
+                                          <gco:CharacterString>87000</gco:CharacterString>
+                                       </gmd:postalCode>
+                                       <gmd:country>
+                                          <gco:CharacterString>France</gco:CharacterString>
+                                       </gmd:country>
+                                       <gmd:electronicMailAddress>
+                                          <gco:CharacterString>sandre@sandre.eaufrance.fr</gco:CharacterString>
+                                       </gmd:electronicMailAddress>
+                                    </gmd:CI_Address>
+                                 </gmd:address>
+                              </gmd:CI_Contact>
+                           </gmd:contactInfo>
+                           <gmd:role>
+                              <gmd:CI_RoleCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode"
+                                               codeListValue="processor"/>
+                           </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                     </gmd:processor>
+                  </gmd:LI_ProcessStep>
+               </gmd:processStep>
+            </gmd:LI_Lineage>
+         </gmd:lineage>
+      </gmd:DQ_DataQuality>
+  </gmd:dataQualityInfo>
+</gmd:MD_Metadata>
