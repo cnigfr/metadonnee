@@ -1,0 +1,1723 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gfc="http://www.isotc211.org/2004/gfc" xmlns:gml="http://www.opengis.net/gml" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/srv http://schemas.opengis.net/iso/19139/20060504/srv/srv.xsd" id="GPF.Telechargement">
+	<gmd:fileIdentifier>
+		<gco:CharacterString>GPF.Itineraire.xml</gco:CharacterString>
+	</gmd:fileIdentifier>
+	<gmd:language>
+		<gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="fre"/>
+	</gmd:language>
+	<gmd:characterSet>
+		<gmd:MD_CharacterSetCode codeList="http://registre.ign.fr/ign/legacy/codelist/isoCodeListsExtensions/MD_CharacterSetCode" codeListValue="utf8"/>
+	</gmd:characterSet>
+	<gmd:hierarchyLevel>
+		<gmd:MD_ScopeCode codeList="http://registre.ign.fr/ign/legacy/codelist/isoCodeListsExtensions/MD_ScopeCode" codeListValue="service"/>
+	</gmd:hierarchyLevel>
+	<gmd:hierarchyLevelName xsi:type="gmd:PT_FreeText_PropertyType">
+		<gco:CharacterString>Service</gco:CharacterString>
+		<gmd:PT_FreeText>
+			<gmd:textGroup>
+				<gmd:LocalisedCharacterString locale="#locale-eng">Service</gmd:LocalisedCharacterString>
+			</gmd:textGroup>
+		</gmd:PT_FreeText>
+	</gmd:hierarchyLevelName>
+	<gmd:contact>
+		<gmd:CI_ResponsibleParty id="GPF.contact">
+			<gmd:organisationName xsi:type="gmd:PT_FreeText_PropertyType">
+				<gco:CharacterString>Géoplateforme</gco:CharacterString>
+				<gmd:PT_FreeText>
+					<gmd:textGroup>
+						<gmd:LocalisedCharacterString locale="#locale-eng">Geoplateforme</gmd:LocalisedCharacterString>
+					</gmd:textGroup>
+				</gmd:PT_FreeText>
+			</gmd:organisationName>
+			<gmd:contactInfo>
+				<gmd:CI_Contact>
+					<gmd:address>
+						<gmd:CI_Address>
+							<gmd:electronicMailAddress>
+								<gco:CharacterString>geoplateforme@ign.fr</gco:CharacterString>
+							</gmd:electronicMailAddress>
+						</gmd:CI_Address>
+					</gmd:address>
+				</gmd:CI_Contact>
+			</gmd:contactInfo>
+			<gmd:role>
+				<gmd:CI_RoleCode codeList="http://registre.ign.fr/ign/legacy/codelist/isoCodeListsExtensions/CI_RoleCode" codeListValue="pointOfContact"/>
+			</gmd:role>
+		</gmd:CI_ResponsibleParty>
+	</gmd:contact>
+	<gmd:dateStamp>
+		<gco:Date>2023-02-06</gco:Date>
+	</gmd:dateStamp>
+	<gmd:metadataStandardName>
+		<gco:CharacterString>ISO 19119</gco:CharacterString>
+	</gmd:metadataStandardName>
+	<gmd:metadataStandardVersion>
+		<gco:CharacterString>2005/PDAM 1</gco:CharacterString>
+	</gmd:metadataStandardVersion>
+	<gmd:locale>
+		<gmd:PT_Locale id="locale-eng">
+			<gmd:languageCode>
+				<gmd:LanguageCode codeList="http://registre.ign.fr/ign/legacy/codelist/isoCodeListsExtensions/LanguageCode" codeListValue="eng"/>
+			</gmd:languageCode>
+			<gmd:country>
+				<gmd:Country codeList="http://registre.ign.fr/ign/legacy/codelist/isoCodeListsExtensions/Country" codeListValue="GB"/>
+			</gmd:country>
+			<gmd:characterEncoding>
+				<gmd:MD_CharacterSetCode codeList="http://registre.ign.fr/ign/legacy/codelist/isoCodeListsExtensions/MD_CharacterSetCode" codeListValue="utf8"/>
+			</gmd:characterEncoding>
+		</gmd:PT_Locale>
+	</gmd:locale>
+	<gmd:identificationInfo>
+		<srv:SV_ServiceIdentification id="GPF.Itineraire.serviceId">
+			<gmd:citation>
+				<gmd:CI_Citation>
+					<gmd:title xsi:type="gmd:PT_FreeText_PropertyType">
+						<gco:CharacterString>Service de calcul d'itinéraire de la Géoplateforme</gco:CharacterString>
+						<gmd:PT_FreeText>
+							<gmd:textGroup>
+								<gmd:LocalisedCharacterString locale="#locale-eng">Geoplatform route planner service</gmd:LocalisedCharacterString>
+							</gmd:textGroup>
+						</gmd:PT_FreeText>
+					</gmd:title>
+					<gmd:date>
+						<gmd:CI_Date>
+							<gmd:date>
+								<gco:Date>2023-01-16</gco:Date>
+							</gmd:date>
+							<gmd:dateType>
+								<gmd:CI_DateTypeCode codeList="http://registre.ign.fr/ign/legacy/codelist/isoCodeListsExtensions/CI_DateTypeCode" codeListValue="publication"/>
+							</gmd:dateType>
+						</gmd:CI_Date>
+					</gmd:date>
+				</gmd:CI_Citation>
+			</gmd:citation>
+			<gmd:abstract xsi:type="gmd:PT_FreeText_PropertyType">
+				<gco:CharacterString>Géoplateforme - Service de calcul d'itinéraire de la Geoplateforme.</gco:CharacterString>
+				<gmd:PT_FreeText>
+					<gmd:textGroup>
+						<gmd:LocalisedCharacterString locale="#locale-eng">Geoplateforme - Geoplateforme route calculation service.</gmd:LocalisedCharacterString>
+					</gmd:textGroup>
+				</gmd:PT_FreeText>
+			</gmd:abstract>
+			<gmd:purpose xsi:type="gmd:PT_FreeText_PropertyType">
+				<gco:CharacterString>Permet de calculer des itinéraires et des isochrones sur les données du Géoportail.</gco:CharacterString>
+				<gmd:PT_FreeText>
+					<gmd:textGroup>
+						<gmd:LocalisedCharacterString locale="#locale-eng">Calculate routes and isochrones using Geoportal data.</gmd:LocalisedCharacterString>
+					</gmd:textGroup>
+				</gmd:PT_FreeText>
+			</gmd:purpose>
+			<gmd:pointOfContact>
+				<gmd:CI_ResponsibleParty>
+					<gmd:organisationName xsi:type="gmd:PT_FreeText_PropertyType">
+						<gco:CharacterString>Géoplateforme</gco:CharacterString>
+						<gmd:PT_FreeText>
+							<gmd:textGroup>
+								<gmd:LocalisedCharacterString locale="#locale-eng">Geoplateforme</gmd:LocalisedCharacterString>
+							</gmd:textGroup>
+						</gmd:PT_FreeText>
+					</gmd:organisationName>
+					<gmd:contactInfo>
+						<gmd:CI_Contact>
+							<gmd:address>
+								<gmd:CI_Address>
+									<gmd:electronicMailAddress>
+										<gco:CharacterString>geoplateforme@ign.fr</gco:CharacterString>
+									</gmd:electronicMailAddress>
+								</gmd:CI_Address>
+							</gmd:address>
+						</gmd:CI_Contact>
+					</gmd:contactInfo>
+					<gmd:role>
+						<gmd:CI_RoleCode codeList="http://registre.ign.fr/ign/legacy/codelist/isoCodeListsExtensions/CI_RoleCode" codeListValue="pointOfContact"/>
+					</gmd:role>
+				</gmd:CI_ResponsibleParty>
+			</gmd:pointOfContact>
+			<gmd:descriptiveKeywords>
+				<gmd:MD_Keywords>
+					<gmd:keyword>
+						<gco:CharacterString>infoFeatureAccessService</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:thesaurusName>
+						<gmd:CI_Citation>
+							<gmd:title>
+								<gco:CharacterString>RÈGLEMENT (CE) No 1205/2008</gco:CharacterString>
+							</gmd:title>
+							<gmd:date>
+								<gmd:CI_Date>
+									<gmd:date>
+										<gco:Date>2008-12-03</gco:Date>
+									</gmd:date>
+									<gmd:dateType>
+										<gmd:CI_DateTypeCode codeList="http://librairies.ign.fr/geoportail/resources/CodeLists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+									</gmd:dateType>
+								</gmd:CI_Date>
+							</gmd:date>
+						</gmd:CI_Citation>
+					</gmd:thesaurusName>
+				</gmd:MD_Keywords>
+			</gmd:descriptiveKeywords>
+			<gmd:descriptiveKeywords>
+				<gmd:MD_Keywords>
+					<gmd:keyword>
+						<gmx:Anchor xlink:href="http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceCategory/humanCatalogueViewer">humanCatalogViewer</gmx:Anchor>
+					</gmd:keyword>
+					<gmd:thesaurusName>
+						<gmd:CI_Citation>
+							<gmd:title>
+								<gco:CharacterString>COMMISSION REGULATION (EC) No 1205/2008 of 3 December 2008 implementing Directive 2007/2/EC of the European Parliament and of the Council as regards metadata, Part D 4, Classification of Spatial Data Services</gco:CharacterString>
+							</gmd:title>
+							<gmd:date>
+								<gmd:CI_Date>
+									<gmd:date>
+										<gco:Date>2008-12-03</gco:Date>
+									</gmd:date>
+									<gmd:dateType>
+										<gmd:CI_DateTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication"/>
+									</gmd:dateType>
+								</gmd:CI_Date>
+							</gmd:date>
+						</gmd:CI_Citation>
+					</gmd:thesaurusName>
+				</gmd:MD_Keywords>
+			</gmd:descriptiveKeywords>
+			<gmd:resourceConstraints>
+				<gmd:MD_LegalConstraints>
+					<gmd:accessConstraints>
+						<gmd:MD_RestrictionCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions"/>
+					</gmd:accessConstraints>
+					<gmd:otherConstraints>
+						<gmx:Anchor xlink:href="http://inspire.ec.europa.eu/metadata-codelist/LimitationsOnPublicAccess/noLimitations">No limitations on public access</gmx:Anchor>
+					</gmd:otherConstraints>
+				</gmd:MD_LegalConstraints>
+			</gmd:resourceConstraints>
+			<gmd:resourceConstraints>
+				<gmd:MD_LegalConstraints>
+					<gmd:useConstraints>
+						<gmd:MD_RestrictionCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions"/>
+					</gmd:useConstraints>
+					<gmd:otherConstraints>
+						<gmx:Anchor xlink:href="http://inspire.ec.europa.eu/metadata-codelist/ConditionsApplyingToAccessAndUse/noConditionsApply">No conditions apply to access and use</gmx:Anchor>
+					</gmd:otherConstraints>
+				</gmd:MD_LegalConstraints>
+			</gmd:resourceConstraints>
+			<srv:serviceType>
+				<gco:LocalName>other</gco:LocalName>
+			</srv:serviceType>
+			<srv:restrictions>
+				<gmd:MD_Constraints>
+					<gmd:useLimitation>
+						<gco:CharacterString>none</gco:CharacterString>
+					</gmd:useLimitation>
+				</gmd:MD_Constraints>
+			</srv:restrictions>
+			<srv:extent>
+				<gmd:EX_Extent>
+					<gmd:geographicElement>
+						<gmd:EX_GeographicBoundingBox>
+							<gmd:westBoundLongitude>
+								<gco:Decimal>-180.0</gco:Decimal>
+							</gmd:westBoundLongitude>
+							<gmd:eastBoundLongitude>
+								<gco:Decimal>180.0</gco:Decimal>
+							</gmd:eastBoundLongitude>
+							<gmd:southBoundLatitude>
+								<gco:Decimal>-90.0</gco:Decimal>
+							</gmd:southBoundLatitude>
+							<gmd:northBoundLatitude>
+								<gco:Decimal>90.0</gco:Decimal>
+							</gmd:northBoundLatitude>
+						</gmd:EX_GeographicBoundingBox>
+					</gmd:geographicElement>
+				</gmd:EX_Extent>
+			</srv:extent>
+			<srv:couplingType>
+				<srv:SV_CouplingType codeList="http://www.isotc211.org/2005/iso19119/resources/Codelist/gmxCodelists.xml#SV_CouplingType" codeListValue="lose"/>
+			</srv:couplingType>
+			<srv:containsOperations>
+				<srv:SV_OperationMetadata id="GPF.Itineraire.GETCAPABILITIES">
+					<srv:operationName>
+						<gco:CharacterString>GETCAPABILITIES</gco:CharacterString>
+					</srv:operationName>
+					<srv:DCP>
+						<srv:DCPList codeList="http://registre.ign.fr/ign/legacy/codelist/isoCodeListsExtensions/DCPList" codeListValue="WebServices"/>
+					</srv:DCP>
+					<srv:operationDescription xsi:type="gmd:PT_FreeText_PropertyType">
+						<gco:CharacterString>L'opération GETCAPABILITIES permet d'obtenir des métadonnées sur le service qui sont une description lisible par la machine (et par l'homme) du contenu délivré par le serveur ainsi que les valeurs possibles du paramètre 'REQUEST'.</gco:CharacterString>
+						<gmd:PT_FreeText>
+							<gmd:textGroup>
+								<gmd:LocalisedCharacterString locale="#locale-eng">The purpose of the mandatory GETCAPABILITIES operation is to obtain service metadata, which is a machinereadable (and human-readable) description of the server's information content and acceptable request parameter values.</gmd:LocalisedCharacterString>
+							</gmd:textGroup>
+						</gmd:PT_FreeText>
+					</srv:operationDescription>
+					<srv:invocationName>
+						<gco:CharacterString>GETCAPABILITIES</gco:CharacterString>
+					</srv:invocationName>
+					<srv:connectPoint>
+						<gmd:CI_OnlineResource>
+							<gmd:linkage>
+								<gmd:URL>https://data.geopf.fr/itineraire/getcapabilities</gmd:URL>
+							</gmd:linkage>
+							<gmd:description>
+								<gmx:Anchor xlink:href="http://inspire.ec.europa.eu/metadatacodelist/OnLineDescriptionCode/accessPoint">accessPoint</gmx:Anchor>
+							</gmd:description>
+							<gmd:function>
+								<gmd:CI_OnLineFunctionCode codeList="http://registre.ign.fr/ign/legacy/codelist/isoCodeListsExtensions/CI_OnLineFunctionCode" codeListValue="download"/>
+							</gmd:function>
+						</gmd:CI_OnlineResource>
+					</srv:connectPoint>
+				</srv:SV_OperationMetadata>
+			</srv:containsOperations>
+			<srv:containsOperations>
+				<srv:SV_OperationMetadata id="GPF.Itineraire.ROUTE">
+					<srv:operationName>
+						<gco:CharacterString>ROUTE</gco:CharacterString>
+					</srv:operationName>
+					<srv:DCP>
+						<srv:DCPList codeList="http://registre.ign.fr/ign/legacy/codelist/isoCodeListsExtensions/DCPList" codeListValue="WebServices"/>
+					</srv:DCP>
+					<srv:operationDescription xsi:type="gmd:PT_FreeText_PropertyType">
+						<gco:CharacterString>L'opération ROUTE permet de calculer un itinéraire.</gco:CharacterString>
+						<gmd:PT_FreeText>
+							<gmd:textGroup>
+								<gmd:LocalisedCharacterString locale="#locale-eng">The ROUTE operation is used to calculate a route.</gmd:LocalisedCharacterString>
+							</gmd:textGroup>
+						</gmd:PT_FreeText>
+					</srv:operationDescription>
+					<srv:invocationName>
+						<gco:CharacterString>ROUTE</gco:CharacterString>
+					</srv:invocationName>
+					<srv:parameters>
+						<srv:SV_Parameter id="GPF.Itineraire.ROUTE.RESOURCE">
+							<srv:name>
+								<gco:aName>
+									<gco:CharacterString>RESOURCE</gco:CharacterString>
+								</gco:aName>
+								<gco:attributeType>
+									<gco:TypeName>
+										<gco:aName>
+											<gco:CharacterString>gmd:PT_FreeText_PropertyType</gco:CharacterString>
+										</gco:aName>
+									</gco:TypeName>
+								</gco:attributeType>
+							</srv:name>
+							<srv:direction>
+								<srv:SV_ParameterDirection>in</srv:SV_ParameterDirection>
+							</srv:direction>
+							<srv:description xsi:type="gmd:PT_FreeText_PropertyType">
+								<gco:CharacterString>Le paramètre obligatoire RESOURCE spécifie la ressource demandée</gco:CharacterString>
+								<gmd:PT_FreeText>
+									<gmd:textGroup>
+										<gmd:LocalisedCharacterString locale="#locale-eng">The mandatory RESOURCE parameter specifies the requested resource</gmd:LocalisedCharacterString>
+									</gmd:textGroup>
+								</gmd:PT_FreeText>
+							</srv:description>
+							<srv:optionality>
+								<gco:CharacterString>Mandatory</gco:CharacterString>
+							</srv:optionality>
+							<srv:repeatability>
+								<gco:Boolean>false</gco:Boolean>
+							</srv:repeatability>
+							<srv:valueType>
+								<gco:TypeName>
+									<gco:aName>
+										<gco:CharacterString>Integer_PropertyType</gco:CharacterString>
+									</gco:aName>
+								</gco:TypeName>
+							</srv:valueType>
+						</srv:SV_Parameter>
+					</srv:parameters>
+					<srv:parameters>
+						<srv:SV_Parameter id="GPF.Itineraire.ROUTE.START">
+							<srv:name>
+								<gco:aName>
+									<gco:CharacterString>START</gco:CharacterString>
+								</gco:aName>
+								<gco:attributeType>
+									<gco:TypeName>
+										<gco:aName>
+											<gco:CharacterString>Integer_PropertyType</gco:CharacterString>
+										</gco:aName>
+									</gco:TypeName>
+								</gco:attributeType>
+							</srv:name>
+							<srv:direction>
+								<srv:SV_ParameterDirection>in</srv:SV_ParameterDirection>
+							</srv:direction>
+							<srv:description xsi:type="gmd:PT_FreeText_PropertyType">
+								<gco:CharacterString>Le paramètre obligatoire START permet de définir le point de départ de l'itinéraire.</gco:CharacterString>
+								<gmd:PT_FreeText>
+									<gmd:textGroup>
+										<gmd:LocalisedCharacterString locale="#locale-eng">The mandatory START parameter is used to define the starting point of the route.</gmd:LocalisedCharacterString>
+									</gmd:textGroup>
+								</gmd:PT_FreeText>
+							</srv:description>
+							<srv:optionality>
+								<gco:CharacterString>Mandatory</gco:CharacterString>
+							</srv:optionality>
+							<srv:repeatability>
+								<gco:Boolean>false</gco:Boolean>
+							</srv:repeatability>
+							<srv:valueType>
+								<gco:TypeName>
+									<gco:aName>
+										<gco:CharacterString>Integer_PropertyType</gco:CharacterString>
+									</gco:aName>
+								</gco:TypeName>
+							</srv:valueType>
+						</srv:SV_Parameter>
+					</srv:parameters>
+					<srv:parameters>
+						<srv:SV_Parameter id="GPF.Itineraire.ROUTE.END">
+							<srv:name>
+								<gco:aName>
+									<gco:CharacterString>END</gco:CharacterString>
+								</gco:aName>
+								<gco:attributeType>
+									<gco:TypeName>
+										<gco:aName>
+											<gco:CharacterString>Integer_PropertyType</gco:CharacterString>
+										</gco:aName>
+									</gco:TypeName>
+								</gco:attributeType>
+							</srv:name>
+							<srv:direction>
+								<srv:SV_ParameterDirection>in</srv:SV_ParameterDirection>
+							</srv:direction>
+							<srv:description xsi:type="gmd:PT_FreeText_PropertyType">
+								<gco:CharacterString>Le paramètre obligatoire END permet de définir le point d'arrivée de l'itinéraire.</gco:CharacterString>
+								<gmd:PT_FreeText>
+									<gmd:textGroup>
+										<gmd:LocalisedCharacterString locale="#locale-eng">The mandatory END parameter is used to define the arrival point of the route.</gmd:LocalisedCharacterString>
+									</gmd:textGroup>
+								</gmd:PT_FreeText>
+							</srv:description>
+							<srv:optionality>
+								<gco:CharacterString>Mandatory</gco:CharacterString>
+							</srv:optionality>
+							<srv:repeatability>
+								<gco:Boolean>false</gco:Boolean>
+							</srv:repeatability>
+							<srv:valueType>
+								<gco:TypeName>
+									<gco:aName>
+										<gco:CharacterString>Integer_PropertyType</gco:CharacterString>
+									</gco:aName>
+								</gco:TypeName>
+							</srv:valueType>
+						</srv:SV_Parameter>
+					</srv:parameters>
+					<srv:parameters>
+						<srv:SV_Parameter id="GPF.Itineraire.ROUTE.INTERMEDIATES">
+							<srv:name>
+								<gco:aName>
+									<gco:CharacterString>INTERMEDIATES</gco:CharacterString>
+								</gco:aName>
+								<gco:attributeType>
+									<gco:TypeName>
+										<gco:aName>
+											<gco:CharacterString>Integer_PropertyType</gco:CharacterString>
+										</gco:aName>
+									</gco:TypeName>
+								</gco:attributeType>
+							</srv:name>
+							<srv:direction>
+								<srv:SV_ParameterDirection>in</srv:SV_ParameterDirection>
+							</srv:direction>
+							<srv:description xsi:type="gmd:PT_FreeText_PropertyType">
+								<gco:CharacterString>Le paramètre optionnel INTERMEDIATES permet de définir la liste ordonnée des points de passage à emprunter par l'itinéraire.</gco:CharacterString>
+								<gmd:PT_FreeText>
+									<gmd:textGroup>
+										<gmd:LocalisedCharacterString locale="#locale-eng">The optional INTERMEDIATES parameter is used to define the ordered list of waypoints to be used by the route.</gmd:LocalisedCharacterString>
+									</gmd:textGroup>
+								</gmd:PT_FreeText>
+							</srv:description>
+							<srv:optionality>
+								<gco:CharacterString>Optional</gco:CharacterString>
+							</srv:optionality>
+							<srv:repeatability>
+								<gco:Boolean>false</gco:Boolean>
+							</srv:repeatability>
+							<srv:valueType>
+								<gco:TypeName>
+									<gco:aName>
+										<gco:CharacterString>Integer_PropertyType</gco:CharacterString>
+									</gco:aName>
+								</gco:TypeName>
+							</srv:valueType>
+						</srv:SV_Parameter>
+					</srv:parameters>
+					<srv:parameters>
+						<srv:SV_Parameter id="GPF.Itineraire.ROUTE.PROFILE">
+							<srv:name>
+								<gco:aName>
+									<gco:CharacterString>PROFILE</gco:CharacterString>
+								</gco:aName>
+								<gco:attributeType>
+									<gco:TypeName>
+										<gco:aName>
+											<gco:CharacterString>Integer_PropertyType</gco:CharacterString>
+										</gco:aName>
+									</gco:TypeName>
+								</gco:attributeType>
+							</srv:name>
+							<srv:direction>
+								<srv:SV_ParameterDirection>in</srv:SV_ParameterDirection>
+							</srv:direction>
+							<srv:description xsi:type="gmd:PT_FreeText_PropertyType">
+								<gco:CharacterString>Le paramètre optionnel PROFILE permet de définir le moyen de déplacement utilisé pour le calcul.</gco:CharacterString>
+								<gmd:PT_FreeText>
+									<gmd:textGroup>
+										<gmd:LocalisedCharacterString locale="#locale-eng">The optional INTERMEDIATES parameter is used to define the ordered list of waypoints to be used by the route.</gmd:LocalisedCharacterString>
+									</gmd:textGroup>
+								</gmd:PT_FreeText>
+							</srv:description>
+							<srv:optionality>
+								<gco:CharacterString>Optional</gco:CharacterString>
+							</srv:optionality>
+							<srv:repeatability>
+								<gco:Boolean>false</gco:Boolean>
+							</srv:repeatability>
+							<srv:valueType>
+								<gco:TypeName>
+									<gco:aName>
+										<gco:CharacterString>Integer_PropertyType</gco:CharacterString>
+									</gco:aName>
+								</gco:TypeName>
+							</srv:valueType>
+						</srv:SV_Parameter>
+					</srv:parameters>
+					<srv:parameters>
+						<srv:SV_Parameter id="GPF.Itineraire.ROUTE.OPTIMIZATION">
+							<srv:name>
+								<gco:aName>
+									<gco:CharacterString>OPTIMIZATION</gco:CharacterString>
+								</gco:aName>
+								<gco:attributeType>
+									<gco:TypeName>
+										<gco:aName>
+											<gco:CharacterString>Integer_PropertyType</gco:CharacterString>
+										</gco:aName>
+									</gco:TypeName>
+								</gco:attributeType>
+							</srv:name>
+							<srv:direction>
+								<srv:SV_ParameterDirection>in</srv:SV_ParameterDirection>
+							</srv:direction>
+							<srv:description xsi:type="gmd:PT_FreeText_PropertyType">
+								<gco:CharacterString>Le paramètre obligatoire OPTIMIZATION permet de définir le critère d'optimisation utilisé pour le calcul (plus court, plus rapide).</gco:CharacterString>
+								<gmd:PT_FreeText>
+									<gmd:textGroup>
+										<gmd:LocalisedCharacterString locale="#locale-eng">The mandatory OPTIMIZATION parameter is used to define the optimisation criterion used for the calculation (shortest, fastest).</gmd:LocalisedCharacterString>
+									</gmd:textGroup>
+								</gmd:PT_FreeText>
+							</srv:description>
+							<srv:optionality>
+								<gco:CharacterString>Mandatory</gco:CharacterString>
+							</srv:optionality>
+							<srv:repeatability>
+								<gco:Boolean>false</gco:Boolean>
+							</srv:repeatability>
+							<srv:valueType>
+								<gco:TypeName>
+									<gco:aName>
+										<gco:CharacterString>Integer_PropertyType</gco:CharacterString>
+									</gco:aName>
+								</gco:TypeName>
+							</srv:valueType>
+						</srv:SV_Parameter>
+					</srv:parameters>
+					<srv:parameters>
+						<srv:SV_Parameter id="GPF.Itineraire.ROUTE.GETSTEPS">
+							<srv:name>
+								<gco:aName>
+									<gco:CharacterString>GETSTEPS</gco:CharacterString>
+								</gco:aName>
+								<gco:attributeType>
+									<gco:TypeName>
+										<gco:aName>
+											<gco:CharacterString>Integer_PropertyType</gco:CharacterString>
+										</gco:aName>
+									</gco:TypeName>
+								</gco:attributeType>
+							</srv:name>
+							<srv:direction>
+								<srv:SV_ParameterDirection>in</srv:SV_ParameterDirection>
+							</srv:direction>
+							<srv:description xsi:type="gmd:PT_FreeText_PropertyType">
+								<gco:CharacterString>Le paramètre obligatoire GETSTEPS permet de définir la présence de la description des tronçons de route dans l’itinéraire retourné.</gco:CharacterString>
+								<gmd:PT_FreeText>
+									<gmd:textGroup>
+										<gmd:LocalisedCharacterString locale="#locale-eng">The mandatory GETSTEPS parameter is used to define the presence of road section descriptions in the returned route.</gmd:LocalisedCharacterString>
+									</gmd:textGroup>
+								</gmd:PT_FreeText>
+							</srv:description>
+							<srv:optionality>
+								<gco:CharacterString>Mandatory</gco:CharacterString>
+							</srv:optionality>
+							<srv:repeatability>
+								<gco:Boolean>false</gco:Boolean>
+							</srv:repeatability>
+							<srv:valueType>
+								<gco:TypeName>
+									<gco:aName>
+										<gco:CharacterString>Integer_PropertyType</gco:CharacterString>
+									</gco:aName>
+								</gco:TypeName>
+							</srv:valueType>
+						</srv:SV_Parameter>
+					</srv:parameters>
+					<srv:parameters>
+						<srv:SV_Parameter id="GPF.Itineraire.ROUTE.WAYSATTRIBUTES">
+							<srv:name>
+								<gco:aName>
+									<gco:CharacterString>WAYSATTRIBUTES</gco:CharacterString>
+								</gco:aName>
+								<gco:attributeType>
+									<gco:TypeName>
+										<gco:aName>
+											<gco:CharacterString>Integer_PropertyType</gco:CharacterString>
+										</gco:aName>
+									</gco:TypeName>
+								</gco:attributeType>
+							</srv:name>
+							<srv:direction>
+								<srv:SV_ParameterDirection>in</srv:SV_ParameterDirection>
+							</srv:direction>
+							<srv:description xsi:type="gmd:PT_FreeText_PropertyType">
+								<gco:CharacterString>Le paramètre optionnel WAYSATTRIBUTES permet de définir les caractéristiques des tronçons de route à afficher dans la réponse.</gco:CharacterString>
+								<gmd:PT_FreeText>
+									<gmd:textGroup>
+										<gmd:LocalisedCharacterString locale="#locale-eng">The optional WAYSATTRIBUTES parameter is used to define the characteristics of the road sections to be displayed in the response.</gmd:LocalisedCharacterString>
+									</gmd:textGroup>
+								</gmd:PT_FreeText>
+							</srv:description>
+							<srv:optionality>
+								<gco:CharacterString>Optional</gco:CharacterString>
+							</srv:optionality>
+							<srv:repeatability>
+								<gco:Boolean>false</gco:Boolean>
+							</srv:repeatability>
+							<srv:valueType>
+								<gco:TypeName>
+									<gco:aName>
+										<gco:CharacterString>Integer_PropertyType</gco:CharacterString>
+									</gco:aName>
+								</gco:TypeName>
+							</srv:valueType>
+						</srv:SV_Parameter>
+					</srv:parameters>
+					<srv:parameters>
+						<srv:SV_Parameter id="GPF.Itineraire.ROUTE.GEOMETRYFORMAT">
+							<srv:name>
+								<gco:aName>
+									<gco:CharacterString>GEOMETRYFORMAT</gco:CharacterString>
+								</gco:aName>
+								<gco:attributeType>
+									<gco:TypeName>
+										<gco:aName>
+											<gco:CharacterString>Integer_PropertyType</gco:CharacterString>
+										</gco:aName>
+									</gco:TypeName>
+								</gco:attributeType>
+							</srv:name>
+							<srv:direction>
+								<srv:SV_ParameterDirection>in</srv:SV_ParameterDirection>
+							</srv:direction>
+							<srv:description xsi:type="gmd:PT_FreeText_PropertyType">
+								<gco:CharacterString>Le paramètre optionnel GEOMETRYFORMAT permet de définir le format d'encodage de la géométrie.</gco:CharacterString>
+								<gmd:PT_FreeText>
+									<gmd:textGroup>
+										<gmd:LocalisedCharacterString locale="#locale-eng">The optional GEOMETRYFORMAT parameter is used to define the geometry encoding format.</gmd:LocalisedCharacterString>
+									</gmd:textGroup>
+								</gmd:PT_FreeText>
+							</srv:description>
+							<srv:optionality>
+								<gco:CharacterString>Optional</gco:CharacterString>
+							</srv:optionality>
+							<srv:repeatability>
+								<gco:Boolean>false</gco:Boolean>
+							</srv:repeatability>
+							<srv:valueType>
+								<gco:TypeName>
+									<gco:aName>
+										<gco:CharacterString>Integer_PropertyType</gco:CharacterString>
+									</gco:aName>
+								</gco:TypeName>
+							</srv:valueType>
+						</srv:SV_Parameter>
+					</srv:parameters>
+					<srv:parameters>
+						<srv:SV_Parameter id="GPF.Itineraire.ROUTE.GETBBOX">
+							<srv:name>
+								<gco:aName>
+									<gco:CharacterString>GETBBOX</gco:CharacterString>
+								</gco:aName>
+								<gco:attributeType>
+									<gco:TypeName>
+										<gco:aName>
+											<gco:CharacterString>Integer_PropertyType</gco:CharacterString>
+										</gco:aName>
+									</gco:TypeName>
+								</gco:attributeType>
+							</srv:name>
+							<srv:direction>
+								<srv:SV_ParameterDirection>in</srv:SV_ParameterDirection>
+							</srv:direction>
+							<srv:description xsi:type="gmd:PT_FreeText_PropertyType">
+								<gco:CharacterString>Le paramètre optionnel GETBBOX permet de définir la présence de l'emprise de l'itinéraire dans la réponse.</gco:CharacterString>
+								<gmd:PT_FreeText>
+									<gmd:textGroup>
+										<gmd:LocalisedCharacterString locale="#locale-eng">The optional GETBBOX parameter is used to define the presence of the route right-of-way in the response.</gmd:LocalisedCharacterString>
+									</gmd:textGroup>
+								</gmd:PT_FreeText>
+							</srv:description>
+							<srv:optionality>
+								<gco:CharacterString>Optional</gco:CharacterString>
+							</srv:optionality>
+							<srv:repeatability>
+								<gco:Boolean>false</gco:Boolean>
+							</srv:repeatability>
+							<srv:valueType>
+								<gco:TypeName>
+									<gco:aName>
+										<gco:CharacterString>Integer_PropertyType</gco:CharacterString>
+									</gco:aName>
+								</gco:TypeName>
+							</srv:valueType>
+						</srv:SV_Parameter>
+					</srv:parameters>
+					<srv:parameters>
+						<srv:SV_Parameter id="GPF.Itineraire.ROUTE.CRS">
+							<srv:name>
+								<gco:aName>
+									<gco:CharacterString>CRS</gco:CharacterString>
+								</gco:aName>
+								<gco:attributeType>
+									<gco:TypeName>
+										<gco:aName>
+											<gco:CharacterString>Integer_PropertyType</gco:CharacterString>
+										</gco:aName>
+									</gco:TypeName>
+								</gco:attributeType>
+							</srv:name>
+							<srv:direction>
+								<srv:SV_ParameterDirection>in</srv:SV_ParameterDirection>
+							</srv:direction>
+							<srv:description xsi:type="gmd:PT_FreeText_PropertyType">
+								<gco:CharacterString>Le paramètre optionnel CRS permet de définir la projection utilisée pour exprimer les coordonnées et récupérer les géométries.</gco:CharacterString>
+								<gmd:PT_FreeText>
+									<gmd:textGroup>
+										<gmd:LocalisedCharacterString locale="#locale-eng">The optional CRS parameter is used to define the projection used to express coordinates and retrieve geometry.</gmd:LocalisedCharacterString>
+									</gmd:textGroup>
+								</gmd:PT_FreeText>
+							</srv:description>
+							<srv:optionality>
+								<gco:CharacterString>Optional</gco:CharacterString>
+							</srv:optionality>
+							<srv:repeatability>
+								<gco:Boolean>false</gco:Boolean>
+							</srv:repeatability>
+							<srv:valueType>
+								<gco:TypeName>
+									<gco:aName>
+										<gco:CharacterString>Integer_PropertyType</gco:CharacterString>
+									</gco:aName>
+								</gco:TypeName>
+							</srv:valueType>
+						</srv:SV_Parameter>
+					</srv:parameters>
+					<srv:parameters>
+						<srv:SV_Parameter id="GPF.Itineraire.ROUTE.TIMEUNIT">
+							<srv:name>
+								<gco:aName>
+									<gco:CharacterString>TIMEUNIT</gco:CharacterString>
+								</gco:aName>
+								<gco:attributeType>
+									<gco:TypeName>
+										<gco:aName>
+											<gco:CharacterString>Integer_PropertyType</gco:CharacterString>
+										</gco:aName>
+									</gco:TypeName>
+								</gco:attributeType>
+							</srv:name>
+							<srv:direction>
+								<srv:SV_ParameterDirection>in</srv:SV_ParameterDirection>
+							</srv:direction>
+							<srv:description xsi:type="gmd:PT_FreeText_PropertyType">
+								<gco:CharacterString>Le paramètre optionnel TIMEUNIT permet de définir l'unité utilisée pour exprimer les durées.</gco:CharacterString>
+								<gmd:PT_FreeText>
+									<gmd:textGroup>
+										<gmd:LocalisedCharacterString locale="#locale-eng">The optional TIMEUNIT parameter is used to define the unit used to express times.</gmd:LocalisedCharacterString>
+									</gmd:textGroup>
+								</gmd:PT_FreeText>
+							</srv:description>
+							<srv:optionality>
+								<gco:CharacterString>Optional</gco:CharacterString>
+							</srv:optionality>
+							<srv:repeatability>
+								<gco:Boolean>false</gco:Boolean>
+							</srv:repeatability>
+							<srv:valueType>
+								<gco:TypeName>
+									<gco:aName>
+										<gco:CharacterString>Integer_PropertyType</gco:CharacterString>
+									</gco:aName>
+								</gco:TypeName>
+							</srv:valueType>
+						</srv:SV_Parameter>
+					</srv:parameters>
+					<srv:parameters>
+						<srv:SV_Parameter id="GPF.Itineraire.ROUTE.DISTANCEUNIT">
+							<srv:name>
+								<gco:aName>
+									<gco:CharacterString>DISTANCEUNIT</gco:CharacterString>
+								</gco:aName>
+								<gco:attributeType>
+									<gco:TypeName>
+										<gco:aName>
+											<gco:CharacterString>Integer_PropertyType</gco:CharacterString>
+										</gco:aName>
+									</gco:TypeName>
+								</gco:attributeType>
+							</srv:name>
+							<srv:direction>
+								<srv:SV_ParameterDirection>in</srv:SV_ParameterDirection>
+							</srv:direction>
+							<srv:description xsi:type="gmd:PT_FreeText_PropertyType">
+								<gco:CharacterString>Le paramètre optionnel DISTANCEUNIT permet de définir l'unité utilisée pour exprimer les distances.</gco:CharacterString>
+								<gmd:PT_FreeText>
+									<gmd:textGroup>
+										<gmd:LocalisedCharacterString locale="#locale-eng">The optional DISTANCEUNIT parameter is used to define the unit used to express distances.</gmd:LocalisedCharacterString>
+									</gmd:textGroup>
+								</gmd:PT_FreeText>
+							</srv:description>
+							<srv:optionality>
+								<gco:CharacterString>Optional</gco:CharacterString>
+							</srv:optionality>
+							<srv:repeatability>
+								<gco:Boolean>false</gco:Boolean>
+							</srv:repeatability>
+							<srv:valueType>
+								<gco:TypeName>
+									<gco:aName>
+										<gco:CharacterString>Integer_PropertyType</gco:CharacterString>
+									</gco:aName>
+								</gco:TypeName>
+							</srv:valueType>
+						</srv:SV_Parameter>
+					</srv:parameters>
+					<srv:parameters>
+						<srv:SV_Parameter id="GPF.Itineraire.ROUTE.CONSTRAINTS">
+							<srv:name>
+								<gco:aName>
+									<gco:CharacterString>CONSTRAINTS</gco:CharacterString>
+								</gco:aName>
+								<gco:attributeType>
+									<gco:TypeName>
+										<gco:aName>
+											<gco:CharacterString>Integer_PropertyType</gco:CharacterString>
+										</gco:aName>
+									</gco:TypeName>
+								</gco:attributeType>
+							</srv:name>
+							<srv:direction>
+								<srv:SV_ParameterDirection>in</srv:SV_ParameterDirection>
+							</srv:direction>
+							<srv:description xsi:type="gmd:PT_FreeText_PropertyType">
+								<gco:CharacterString>Le paramètre optionnel CONSTRAINTS permet de définir les contraintes utilisées pour le calcul.</gco:CharacterString>
+								<gmd:PT_FreeText>
+									<gmd:textGroup>
+										<gmd:LocalisedCharacterString locale="#locale-eng">The optional CONSTRAINTS parameter is used to define the constraints used for the calculation.</gmd:LocalisedCharacterString>
+									</gmd:textGroup>
+								</gmd:PT_FreeText>
+							</srv:description>
+							<srv:optionality>
+								<gco:CharacterString>Optional</gco:CharacterString>
+							</srv:optionality>
+							<srv:repeatability>
+								<gco:Boolean>false</gco:Boolean>
+							</srv:repeatability>
+							<srv:valueType>
+								<gco:TypeName>
+									<gco:aName>
+										<gco:CharacterString>Integer_PropertyType</gco:CharacterString>
+									</gco:aName>
+								</gco:TypeName>
+							</srv:valueType>
+						</srv:SV_Parameter>
+					</srv:parameters>
+					<srv:connectPoint>
+						<gmd:CI_OnlineResource>
+							<gmd:linkage>
+								<gmd:URL>https://data.geopf.fr/itineraire/route</gmd:URL>
+							</gmd:linkage>
+							<gmd:description>
+								<gmx:Anchor xlink:href="http://inspire.ec.europa.eu/metadatacodelist/OnLineDescriptionCode/accessPoint">accessPoint</gmx:Anchor>
+							</gmd:description>
+							<gmd:function>
+								<gmd:CI_OnLineFunctionCode codeList="http://registre.ign.fr/ign/legacy/codelist/isoCodeListsExtensions/CI_OnLineFunctionCode" codeListValue="download"/>
+							</gmd:function>
+						</gmd:CI_OnlineResource>
+					</srv:connectPoint>
+				</srv:SV_OperationMetadata>
+			</srv:containsOperations>
+			<srv:containsOperations>
+				<srv:SV_OperationMetadata id="GPF.Itineraire.ISOCHRONE">
+					<srv:operationName>
+						<gco:CharacterString>ISOCHRONE</gco:CharacterString>
+					</srv:operationName>
+					<srv:DCP>
+						<srv:DCPList codeList="http://registre.ign.fr/ign/legacy/codelist/isoCodeListsExtensions/DCPList" codeListValue="WebServices"/>
+					</srv:DCP>
+					<srv:operationDescription xsi:type="gmd:PT_FreeText_PropertyType">
+						<gco:CharacterString>L'opération ISOCHRONE permet de calculer une zone isochrone ou isodistance.</gco:CharacterString>
+						<gmd:PT_FreeText>
+							<gmd:textGroup>
+								<gmd:LocalisedCharacterString locale="#locale-eng">The ISOCHRONE operation is used to calculate an isochronous zone or isodistance.</gmd:LocalisedCharacterString>
+							</gmd:textGroup>
+						</gmd:PT_FreeText>
+					</srv:operationDescription>
+					<srv:invocationName>
+						<gco:CharacterString>ISOCHRONE</gco:CharacterString>
+					</srv:invocationName>
+					<srv:parameters>
+						<srv:SV_Parameter id="GPF.Itineraire.ISOCHRONE.RESOURCE">
+							<srv:name>
+								<gco:aName>
+									<gco:CharacterString>RESOURCE</gco:CharacterString>
+								</gco:aName>
+								<gco:attributeType>
+									<gco:TypeName>
+										<gco:aName>
+											<gco:CharacterString>gmd:PT_FreeText_PropertyType</gco:CharacterString>
+										</gco:aName>
+									</gco:TypeName>
+								</gco:attributeType>
+							</srv:name>
+							<srv:direction>
+								<srv:SV_ParameterDirection>in</srv:SV_ParameterDirection>
+							</srv:direction>
+							<srv:description xsi:type="gmd:PT_FreeText_PropertyType">
+								<gco:CharacterString>Le paramètre obligatoire RESOURCE spécifie la ressource utilisée par le calcul.</gco:CharacterString>
+								<gmd:PT_FreeText>
+									<gmd:textGroup>
+										<gmd:LocalisedCharacterString locale="#locale-eng">The mandatory RESOURCE parameter specifies the resource used by the calculation.</gmd:LocalisedCharacterString>
+									</gmd:textGroup>
+								</gmd:PT_FreeText>
+							</srv:description>
+							<srv:optionality>
+								<gco:CharacterString>Mandatory</gco:CharacterString>
+							</srv:optionality>
+							<srv:repeatability>
+								<gco:Boolean>false</gco:Boolean>
+							</srv:repeatability>
+							<srv:valueType>
+								<gco:TypeName>
+									<gco:aName>
+										<gco:CharacterString>Integer_PropertyType</gco:CharacterString>
+									</gco:aName>
+								</gco:TypeName>
+							</srv:valueType>
+						</srv:SV_Parameter>
+					</srv:parameters>
+					<srv:parameters>
+						<srv:SV_Parameter id="GPF.Itineraire.ISOCHRONE.POINT">
+							<srv:name>
+								<gco:aName>
+									<gco:CharacterString>POINT</gco:CharacterString>
+								</gco:aName>
+								<gco:attributeType>
+									<gco:TypeName>
+										<gco:aName>
+											<gco:CharacterString>gmd:PT_FreeText_PropertyType</gco:CharacterString>
+										</gco:aName>
+									</gco:TypeName>
+								</gco:attributeType>
+							</srv:name>
+							<srv:direction>
+								<srv:SV_ParameterDirection>in</srv:SV_ParameterDirection>
+							</srv:direction>
+							<srv:description xsi:type="gmd:PT_FreeText_PropertyType">
+								<gco:CharacterString>Le paramètre obligatoire POINT spécifie le point de départ ou d'arrivée du calcul.</gco:CharacterString>
+								<gmd:PT_FreeText>
+									<gmd:textGroup>
+										<gmd:LocalisedCharacterString locale="#locale-eng">The mandatory POINT parameter specifies the start or end point of the calculation.</gmd:LocalisedCharacterString>
+									</gmd:textGroup>
+								</gmd:PT_FreeText>
+							</srv:description>
+							<srv:optionality>
+								<gco:CharacterString>Mandatory</gco:CharacterString>
+							</srv:optionality>
+							<srv:repeatability>
+								<gco:Boolean>false</gco:Boolean>
+							</srv:repeatability>
+							<srv:valueType>
+								<gco:TypeName>
+									<gco:aName>
+										<gco:CharacterString>Integer_PropertyType</gco:CharacterString>
+									</gco:aName>
+								</gco:TypeName>
+							</srv:valueType>
+						</srv:SV_Parameter>
+					</srv:parameters>
+					<srv:parameters>
+						<srv:SV_Parameter id="GPF.Itineraire.ISOCHRONE.COSTTYPE">
+							<srv:name>
+								<gco:aName>
+									<gco:CharacterString>COSTTYPE</gco:CharacterString>
+								</gco:aName>
+								<gco:attributeType>
+									<gco:TypeName>
+										<gco:aName>
+											<gco:CharacterString>Integer_PropertyType</gco:CharacterString>
+										</gco:aName>
+									</gco:TypeName>
+								</gco:attributeType>
+							</srv:name>
+							<srv:direction>
+								<srv:SV_ParameterDirection>in</srv:SV_ParameterDirection>
+							</srv:direction>
+							<srv:description xsi:type="gmd:PT_FreeText_PropertyType">
+								<gco:CharacterString>Le paramètre obligatoire COSTTYPE permet de spécifier la méthode de calcul utilisée (durée ou distance).</gco:CharacterString>
+								<gmd:PT_FreeText>
+									<gmd:textGroup>
+										<gmd:LocalisedCharacterString locale="#locale-eng">The mandatory parameter COSTTYPE is used to specify the calculation method used (time or distance).</gmd:LocalisedCharacterString>
+									</gmd:textGroup>
+								</gmd:PT_FreeText>
+							</srv:description>
+							<srv:optionality>
+								<gco:CharacterString>Mandatory</gco:CharacterString>
+							</srv:optionality>
+							<srv:repeatability>
+								<gco:Boolean>false</gco:Boolean>
+							</srv:repeatability>
+							<srv:valueType>
+								<gco:TypeName>
+									<gco:aName>
+										<gco:CharacterString>Integer_PropertyType</gco:CharacterString>
+									</gco:aName>
+								</gco:TypeName>
+							</srv:valueType>
+						</srv:SV_Parameter>
+					</srv:parameters>
+					<srv:parameters>
+						<srv:SV_Parameter id="GPF.Itineraire.ISOCHRONE.COSTVALUE">
+							<srv:name>
+								<gco:aName>
+									<gco:CharacterString>COSTVALUE</gco:CharacterString>
+								</gco:aName>
+								<gco:attributeType>
+									<gco:TypeName>
+										<gco:aName>
+											<gco:CharacterString>Integer_PropertyType</gco:CharacterString>
+										</gco:aName>
+									</gco:TypeName>
+								</gco:attributeType>
+							</srv:name>
+							<srv:direction>
+								<srv:SV_ParameterDirection>in</srv:SV_ParameterDirection>
+							</srv:direction>
+							<srv:description xsi:type="gmd:PT_FreeText_PropertyType">
+								<gco:CharacterString>Le paramètre obligatoire COSTVALUE permet de spécifier la valeur du critère utilisé pour le calcul (durée ou distance).</gco:CharacterString>
+								<gmd:PT_FreeText>
+									<gmd:textGroup>
+										<gmd:LocalisedCharacterString locale="#locale-eng">The mandatory parameter COSTVALUE is used to specify the value of the criterion used for the calculation (time or distance).</gmd:LocalisedCharacterString>
+									</gmd:textGroup>
+								</gmd:PT_FreeText>
+							</srv:description>
+							<srv:optionality>
+								<gco:CharacterString>Mandatory</gco:CharacterString>
+							</srv:optionality>
+							<srv:repeatability>
+								<gco:Boolean>false</gco:Boolean>
+							</srv:repeatability>
+							<srv:valueType>
+								<gco:TypeName>
+									<gco:aName>
+										<gco:CharacterString>Integer_PropertyType</gco:CharacterString>
+									</gco:aName>
+								</gco:TypeName>
+							</srv:valueType>
+						</srv:SV_Parameter>
+					</srv:parameters>
+					<srv:parameters>
+						<srv:SV_Parameter id="GPF.Itineraire.ISOCHRONE.PROFILE">
+							<srv:name>
+								<gco:aName>
+									<gco:CharacterString>PROFILE</gco:CharacterString>
+								</gco:aName>
+								<gco:attributeType>
+									<gco:TypeName>
+										<gco:aName>
+											<gco:CharacterString>Integer_PropertyType</gco:CharacterString>
+										</gco:aName>
+									</gco:TypeName>
+								</gco:attributeType>
+							</srv:name>
+							<srv:direction>
+								<srv:SV_ParameterDirection>in</srv:SV_ParameterDirection>
+							</srv:direction>
+							<srv:description xsi:type="gmd:PT_FreeText_PropertyType">
+								<gco:CharacterString>Le paramètre optionnel PROFILE permet de spécifier le moyen de déplacement utilisé pour le calcul.</gco:CharacterString>
+								<gmd:PT_FreeText>
+									<gmd:textGroup>
+										<gmd:LocalisedCharacterString locale="#locale-eng">The optional PROFILE parameter is used to specify the means of travel used for the calculation.</gmd:LocalisedCharacterString>
+									</gmd:textGroup>
+								</gmd:PT_FreeText>
+							</srv:description>
+							<srv:optionality>
+								<gco:CharacterString>Optional</gco:CharacterString>
+							</srv:optionality>
+							<srv:repeatability>
+								<gco:Boolean>false</gco:Boolean>
+							</srv:repeatability>
+							<srv:valueType>
+								<gco:TypeName>
+									<gco:aName>
+										<gco:CharacterString>Integer_PropertyType</gco:CharacterString>
+									</gco:aName>
+								</gco:TypeName>
+							</srv:valueType>
+						</srv:SV_Parameter>
+					</srv:parameters>
+					<srv:parameters>
+						<srv:SV_Parameter id="GPF.Itineraire.ISOCHRONE.DIRECTION">
+							<srv:name>
+								<gco:aName>
+									<gco:CharacterString>DIRECTION</gco:CharacterString>
+								</gco:aName>
+								<gco:attributeType>
+									<gco:TypeName>
+										<gco:aName>
+											<gco:CharacterString>Integer_PropertyType</gco:CharacterString>
+										</gco:aName>
+									</gco:TypeName>
+								</gco:attributeType>
+							</srv:name>
+							<srv:direction>
+								<srv:SV_ParameterDirection>in</srv:SV_ParameterDirection>
+							</srv:direction>
+							<srv:description xsi:type="gmd:PT_FreeText_PropertyType">
+								<gco:CharacterString>Le paramètre optionnel DIRECTION permet de spécifier le sens de déplacement utilisé pour le calcul (point de départ ou d'arrivée).</gco:CharacterString>
+								<gmd:PT_FreeText>
+									<gmd:textGroup>
+										<gmd:LocalisedCharacterString locale="#locale-eng">The optional DIRECTION parameter is used to specify the direction of travel used for the calculation (start or end point).</gmd:LocalisedCharacterString>
+									</gmd:textGroup>
+								</gmd:PT_FreeText>
+							</srv:description>
+							<srv:optionality>
+								<gco:CharacterString>Optional</gco:CharacterString>
+							</srv:optionality>
+							<srv:repeatability>
+								<gco:Boolean>false</gco:Boolean>
+							</srv:repeatability>
+							<srv:valueType>
+								<gco:TypeName>
+									<gco:aName>
+										<gco:CharacterString>Integer_PropertyType</gco:CharacterString>
+									</gco:aName>
+								</gco:TypeName>
+							</srv:valueType>
+						</srv:SV_Parameter>
+					</srv:parameters>
+					<srv:parameters>
+						<srv:SV_Parameter id="GPF.Itineraire.ISOCHRONE.CRS">
+							<srv:name>
+								<gco:aName>
+									<gco:CharacterString>CRS</gco:CharacterString>
+								</gco:aName>
+								<gco:attributeType>
+									<gco:TypeName>
+										<gco:aName>
+											<gco:CharacterString>Integer_PropertyType</gco:CharacterString>
+										</gco:aName>
+									</gco:TypeName>
+								</gco:attributeType>
+							</srv:name>
+							<srv:direction>
+								<srv:SV_ParameterDirection>in</srv:SV_ParameterDirection>
+							</srv:direction>
+							<srv:description xsi:type="gmd:PT_FreeText_PropertyType">
+								<gco:CharacterString>Le paramètre optionnel CRS permet de spécifier la projection utilisée pour exprimer les coordonnées et récupérer les géométries.</gco:CharacterString>
+								<gmd:PT_FreeText>
+									<gmd:textGroup>
+										<gmd:LocalisedCharacterString locale="#locale-eng">The optional CRS parameter is used to specify the projection used to express coordinates and retrieve geometry.</gmd:LocalisedCharacterString>
+									</gmd:textGroup>
+								</gmd:PT_FreeText>
+							</srv:description>
+							<srv:optionality>
+								<gco:CharacterString>Optional</gco:CharacterString>
+							</srv:optionality>
+							<srv:repeatability>
+								<gco:Boolean>false</gco:Boolean>
+							</srv:repeatability>
+							<srv:valueType>
+								<gco:TypeName>
+									<gco:aName>
+										<gco:CharacterString>Integer_PropertyType</gco:CharacterString>
+									</gco:aName>
+								</gco:TypeName>
+							</srv:valueType>
+						</srv:SV_Parameter>
+					</srv:parameters>
+					<srv:parameters>
+						<srv:SV_Parameter id="GPF.Itineraire.ISOCHRONE.GEOMETRYFORMAT">
+							<srv:name>
+								<gco:aName>
+									<gco:CharacterString>GEOMETRYFORMAT</gco:CharacterString>
+								</gco:aName>
+								<gco:attributeType>
+									<gco:TypeName>
+										<gco:aName>
+											<gco:CharacterString>Integer_PropertyType</gco:CharacterString>
+										</gco:aName>
+									</gco:TypeName>
+								</gco:attributeType>
+							</srv:name>
+							<srv:direction>
+								<srv:SV_ParameterDirection>in</srv:SV_ParameterDirection>
+							</srv:direction>
+							<srv:description xsi:type="gmd:PT_FreeText_PropertyType">
+								<gco:CharacterString>Le paramètre optionnel GEOMETRYFORMAT permet de spécifier le format d'encodage de la géométrie.</gco:CharacterString>
+								<gmd:PT_FreeText>
+									<gmd:textGroup>
+										<gmd:LocalisedCharacterString locale="#locale-eng">The optional GEOMETRYFORMAT parameter is used to specify the encoding format for the geometry.</gmd:LocalisedCharacterString>
+									</gmd:textGroup>
+								</gmd:PT_FreeText>
+							</srv:description>
+							<srv:optionality>
+								<gco:CharacterString>Optional</gco:CharacterString>
+							</srv:optionality>
+							<srv:repeatability>
+								<gco:Boolean>false</gco:Boolean>
+							</srv:repeatability>
+							<srv:valueType>
+								<gco:TypeName>
+									<gco:aName>
+										<gco:CharacterString>Integer_PropertyType</gco:CharacterString>
+									</gco:aName>
+								</gco:TypeName>
+							</srv:valueType>
+						</srv:SV_Parameter>
+					</srv:parameters>
+					<srv:parameters>
+						<srv:SV_Parameter id="GPF.Itineraire.ISOCHRONE.TIMEUNIT">
+							<srv:name>
+								<gco:aName>
+									<gco:CharacterString>TIMEUNIT</gco:CharacterString>
+								</gco:aName>
+								<gco:attributeType>
+									<gco:TypeName>
+										<gco:aName>
+											<gco:CharacterString>Integer_PropertyType</gco:CharacterString>
+										</gco:aName>
+									</gco:TypeName>
+								</gco:attributeType>
+							</srv:name>
+							<srv:direction>
+								<srv:SV_ParameterDirection>in</srv:SV_ParameterDirection>
+							</srv:direction>
+							<srv:description xsi:type="gmd:PT_FreeText_PropertyType">
+								<gco:CharacterString>Le paramètre optionnel TIMEUNIT permet de définir l'unité utilisée pour exprimer les durées.</gco:CharacterString>
+								<gmd:PT_FreeText>
+									<gmd:textGroup>
+										<gmd:LocalisedCharacterString locale="#locale-eng">The optional TIMEUNIT parameter is used to define the unit used to express times.</gmd:LocalisedCharacterString>
+									</gmd:textGroup>
+								</gmd:PT_FreeText>
+							</srv:description>
+							<srv:optionality>
+								<gco:CharacterString>Optional</gco:CharacterString>
+							</srv:optionality>
+							<srv:repeatability>
+								<gco:Boolean>false</gco:Boolean>
+							</srv:repeatability>
+							<srv:valueType>
+								<gco:TypeName>
+									<gco:aName>
+										<gco:CharacterString>Integer_PropertyType</gco:CharacterString>
+									</gco:aName>
+								</gco:TypeName>
+							</srv:valueType>
+						</srv:SV_Parameter>
+					</srv:parameters>
+					<srv:parameters>
+						<srv:SV_Parameter id="GPF.Itineraire.ISOCHRONE.DISTANCEUNIT">
+							<srv:name>
+								<gco:aName>
+									<gco:CharacterString>DISTANCEUNIT</gco:CharacterString>
+								</gco:aName>
+								<gco:attributeType>
+									<gco:TypeName>
+										<gco:aName>
+											<gco:CharacterString>Integer_PropertyType</gco:CharacterString>
+										</gco:aName>
+									</gco:TypeName>
+								</gco:attributeType>
+							</srv:name>
+							<srv:direction>
+								<srv:SV_ParameterDirection>in</srv:SV_ParameterDirection>
+							</srv:direction>
+							<srv:description xsi:type="gmd:PT_FreeText_PropertyType">
+								<gco:CharacterString>Le paramètre optionnel DISTANCEUNIT permet de définir l'unité utilisée pour exprimer les distances.</gco:CharacterString>
+								<gmd:PT_FreeText>
+									<gmd:textGroup>
+										<gmd:LocalisedCharacterString locale="#locale-eng">The optional DISTANCEUNIT parameter is used to define the unit used to express distances.</gmd:LocalisedCharacterString>
+									</gmd:textGroup>
+								</gmd:PT_FreeText>
+							</srv:description>
+							<srv:optionality>
+								<gco:CharacterString>Optional</gco:CharacterString>
+							</srv:optionality>
+							<srv:repeatability>
+								<gco:Boolean>false</gco:Boolean>
+							</srv:repeatability>
+							<srv:valueType>
+								<gco:TypeName>
+									<gco:aName>
+										<gco:CharacterString>Integer_PropertyType</gco:CharacterString>
+									</gco:aName>
+								</gco:TypeName>
+							</srv:valueType>
+						</srv:SV_Parameter>
+					</srv:parameters>
+					<srv:parameters>
+						<srv:SV_Parameter id="GPF.Itineraire.ISOCHRONE.CONSTRAINTS">
+							<srv:name>
+								<gco:aName>
+									<gco:CharacterString>CONSTRAINTS</gco:CharacterString>
+								</gco:aName>
+								<gco:attributeType>
+									<gco:TypeName>
+										<gco:aName>
+											<gco:CharacterString>Integer_PropertyType</gco:CharacterString>
+										</gco:aName>
+									</gco:TypeName>
+								</gco:attributeType>
+							</srv:name>
+							<srv:direction>
+								<srv:SV_ParameterDirection>in</srv:SV_ParameterDirection>
+							</srv:direction>
+							<srv:description xsi:type="gmd:PT_FreeText_PropertyType">
+								<gco:CharacterString>Le paramètre optionnel CONSTRAINTS permet de définir les contraintes utilisées pour le calcul.</gco:CharacterString>
+								<gmd:PT_FreeText>
+									<gmd:textGroup>
+										<gmd:LocalisedCharacterString locale="#locale-eng">The optional CONSTRAINTS parameter is used to define the constraints used for the calculation.</gmd:LocalisedCharacterString>
+									</gmd:textGroup>
+								</gmd:PT_FreeText>
+							</srv:description>
+							<srv:optionality>
+								<gco:CharacterString>Optional</gco:CharacterString>
+							</srv:optionality>
+							<srv:repeatability>
+								<gco:Boolean>false</gco:Boolean>
+							</srv:repeatability>
+							<srv:valueType>
+								<gco:TypeName>
+									<gco:aName>
+										<gco:CharacterString>Integer_PropertyType</gco:CharacterString>
+									</gco:aName>
+								</gco:TypeName>
+							</srv:valueType>
+						</srv:SV_Parameter>
+					</srv:parameters>
+					<srv:connectPoint>
+						<gmd:CI_OnlineResource>
+							<gmd:linkage>
+								<gmd:URL>https://data.geopf.fr/itineraire/isochrone</gmd:URL>
+							</gmd:linkage>
+							<gmd:description>
+								<gmx:Anchor xlink:href="http://inspire.ec.europa.eu/metadatacodelist/OnLineDescriptionCode/accessPoint">accessPoint</gmx:Anchor>
+							</gmd:description>
+							<gmd:function>
+								<gmd:CI_OnLineFunctionCode codeList="http://registre.ign.fr/ign/legacy/codelist/isoCodeListsExtensions/CI_OnLineFunctionCode" codeListValue="download"/>
+							</gmd:function>
+						</gmd:CI_OnlineResource>
+					</srv:connectPoint>
+				</srv:SV_OperationMetadata>
+			</srv:containsOperations>
+			<srv:containsOperations>
+				<srv:SV_OperationMetadata id="GPF.Itineraire.NEAREST">
+					<srv:operationName>
+						<gco:CharacterString>NEAREST</gco:CharacterString>
+					</srv:operationName>
+					<srv:DCP>
+						<srv:DCPList codeList="http://registre.ign.fr/ign/legacy/codelist/isoCodeListsExtensions/DCPList" codeListValue="WebServices"/>
+					</srv:DCP>
+					<srv:operationDescription xsi:type="gmd:PT_FreeText_PropertyType">
+						<gco:CharacterString>L'opération NEAREST permet de trouver les points du graphe le plus proche.</gco:CharacterString>
+						<gmd:PT_FreeText>
+							<gmd:textGroup>
+								<gmd:LocalisedCharacterString locale="#locale-eng">The NEAREST operation is used to find the nearest points on the graph.</gmd:LocalisedCharacterString>
+							</gmd:textGroup>
+						</gmd:PT_FreeText>
+					</srv:operationDescription>
+					<srv:invocationName>
+						<gco:CharacterString>NEAREST</gco:CharacterString>
+					</srv:invocationName>
+					<srv:parameters>
+						<srv:SV_Parameter id="GPF.Itineraire.NEAREST.RESOURCE">
+							<srv:name>
+								<gco:aName>
+									<gco:CharacterString>RESOURCE</gco:CharacterString>
+								</gco:aName>
+								<gco:attributeType>
+									<gco:TypeName>
+										<gco:aName>
+											<gco:CharacterString>gmd:PT_FreeText_PropertyType</gco:CharacterString>
+										</gco:aName>
+									</gco:TypeName>
+								</gco:attributeType>
+							</srv:name>
+							<srv:direction>
+								<srv:SV_ParameterDirection>in</srv:SV_ParameterDirection>
+							</srv:direction>
+							<srv:description xsi:type="gmd:PT_FreeText_PropertyType">
+								<gco:CharacterString>Le paramètre obligatoire RESOURCE spécifie la ressource utilisée par le calcul.</gco:CharacterString>
+								<gmd:PT_FreeText>
+									<gmd:textGroup>
+										<gmd:LocalisedCharacterString locale="#locale-eng">The mandatory RESOURCE parameter specifies the resource used by the calculation.</gmd:LocalisedCharacterString>
+									</gmd:textGroup>
+								</gmd:PT_FreeText>
+							</srv:description>
+							<srv:optionality>
+								<gco:CharacterString>Mandatory</gco:CharacterString>
+							</srv:optionality>
+							<srv:repeatability>
+								<gco:Boolean>false</gco:Boolean>
+							</srv:repeatability>
+							<srv:valueType>
+								<gco:TypeName>
+									<gco:aName>
+										<gco:CharacterString>Integer_PropertyType</gco:CharacterString>
+									</gco:aName>
+								</gco:TypeName>
+							</srv:valueType>
+						</srv:SV_Parameter>
+					</srv:parameters>
+					<srv:parameters>
+						<srv:SV_Parameter id="GPF.Itineraire.NEAREST.COORDINATES">
+							<srv:name>
+								<gco:aName>
+									<gco:CharacterString>COORDINATES</gco:CharacterString>
+								</gco:aName>
+								<gco:attributeType>
+									<gco:TypeName>
+										<gco:aName>
+											<gco:CharacterString>gmd:PT_FreeText_PropertyType</gco:CharacterString>
+										</gco:aName>
+									</gco:TypeName>
+								</gco:attributeType>
+							</srv:name>
+							<srv:direction>
+								<srv:SV_ParameterDirection>in</srv:SV_ParameterDirection>
+							</srv:direction>
+							<srv:description xsi:type="gmd:PT_FreeText_PropertyType">
+								<gco:CharacterString>Le paramètre obligatoire COORDINATES spécifie les coordonnées utilisées pour le calcul.</gco:CharacterString>
+								<gmd:PT_FreeText>
+									<gmd:textGroup>
+										<gmd:LocalisedCharacterString locale="#locale-eng">The mandatory parameter COORDINATES specifies the coordinates used for the calculation.</gmd:LocalisedCharacterString>
+									</gmd:textGroup>
+								</gmd:PT_FreeText>
+							</srv:description>
+							<srv:optionality>
+								<gco:CharacterString>Mandatory</gco:CharacterString>
+							</srv:optionality>
+							<srv:repeatability>
+								<gco:Boolean>false</gco:Boolean>
+							</srv:repeatability>
+							<srv:valueType>
+								<gco:TypeName>
+									<gco:aName>
+										<gco:CharacterString>Integer_PropertyType</gco:CharacterString>
+									</gco:aName>
+								</gco:TypeName>
+							</srv:valueType>
+						</srv:SV_Parameter>
+					</srv:parameters>
+					<srv:parameters>
+						<srv:SV_Parameter id="GPF.Itineraire.NEAREST.NBPOINTS">
+							<srv:name>
+								<gco:aName>
+									<gco:CharacterString>NBPOINTS</gco:CharacterString>
+								</gco:aName>
+								<gco:attributeType>
+									<gco:TypeName>
+										<gco:aName>
+											<gco:CharacterString>gmd:PT_FreeText_PropertyType</gco:CharacterString>
+										</gco:aName>
+									</gco:TypeName>
+								</gco:attributeType>
+							</srv:name>
+							<srv:direction>
+								<srv:SV_ParameterDirection>in</srv:SV_ParameterDirection>
+							</srv:direction>
+							<srv:description xsi:type="gmd:PT_FreeText_PropertyType">
+								<gco:CharacterString>Le paramètre optionnel NBPOINTS spécifie le nombre de points voulu en retour.</gco:CharacterString>
+								<gmd:PT_FreeText>
+									<gmd:textGroup>
+										<gmd:LocalisedCharacterString locale="#locale-eng">The optional NBPOINTS parameter specifies the number of points to be returned.</gmd:LocalisedCharacterString>
+									</gmd:textGroup>
+								</gmd:PT_FreeText>
+							</srv:description>
+							<srv:optionality>
+								<gco:CharacterString>Optional</gco:CharacterString>
+							</srv:optionality>
+							<srv:repeatability>
+								<gco:Boolean>false</gco:Boolean>
+							</srv:repeatability>
+							<srv:valueType>
+								<gco:TypeName>
+									<gco:aName>
+										<gco:CharacterString>Integer_PropertyType</gco:CharacterString>
+									</gco:aName>
+								</gco:TypeName>
+							</srv:valueType>
+						</srv:SV_Parameter>
+					</srv:parameters>
+					<srv:parameters>
+						<srv:SV_Parameter id="GPF.Itineraire.NEAREST.CRS">
+							<srv:name>
+								<gco:aName>
+									<gco:CharacterString>CRS</gco:CharacterString>
+								</gco:aName>
+								<gco:attributeType>
+									<gco:TypeName>
+										<gco:aName>
+											<gco:CharacterString>gmd:PT_FreeText_PropertyType</gco:CharacterString>
+										</gco:aName>
+									</gco:TypeName>
+								</gco:attributeType>
+							</srv:name>
+							<srv:direction>
+								<srv:SV_ParameterDirection>in</srv:SV_ParameterDirection>
+							</srv:direction>
+							<srv:description xsi:type="gmd:PT_FreeText_PropertyType">
+								<gco:CharacterString>Le paramètre optionnel CRS permet de trouver les points du graphe le plus proche.</gco:CharacterString>
+								<gmd:PT_FreeText>
+									<gmd:textGroup>
+										<gmd:LocalisedCharacterString locale="#locale-eng">The optional CRS parameter is used to find the nearest points in the graph.</gmd:LocalisedCharacterString>
+									</gmd:textGroup>
+								</gmd:PT_FreeText>
+							</srv:description>
+							<srv:optionality>
+								<gco:CharacterString>Optional</gco:CharacterString>
+							</srv:optionality>
+							<srv:repeatability>
+								<gco:Boolean>false</gco:Boolean>
+							</srv:repeatability>
+							<srv:valueType>
+								<gco:TypeName>
+									<gco:aName>
+										<gco:CharacterString>Integer_PropertyType</gco:CharacterString>
+									</gco:aName>
+								</gco:TypeName>
+							</srv:valueType>
+						</srv:SV_Parameter>
+					</srv:parameters>
+					<srv:connectPoint>
+						<gmd:CI_OnlineResource>
+							<gmd:linkage>
+								<gmd:URL>https://data.geopf.fr/itineraire/nearest/</gmd:URL>
+							</gmd:linkage>
+							<gmd:description>
+								<gmx:Anchor xlink:href="http://inspire.ec.europa.eu/metadatacodelist/OnLineDescriptionCode/accessPoint">accessPoint</gmx:Anchor>
+							</gmd:description>
+							<gmd:function>
+								<gmd:CI_OnLineFunctionCode codeList="http://registre.ign.fr/ign/legacy/codelist/isoCodeListsExtensions/CI_OnLineFunctionCode" codeListValue="download"/>
+							</gmd:function>
+						</gmd:CI_OnlineResource>
+					</srv:connectPoint>
+				</srv:SV_OperationMetadata>
+			</srv:containsOperations>
+			<!--
+<srv:operatesOn xlink:href="https://data.geo.rie.gouv.fr/inspire/csw?service=CSW&request=GetRecordbYiD&version=2.0.2&typeNames=csw:Record&resultType=results&ID=IGNF_ELF_GeographicalName_1-0.xml"/>
+      <srv:operatesOn xlink:href="https://data.geo.rie.gouv.fr/inspire/csw?service=CSW&request=GetRecordbYiD&version=2.0.2&typeNames=csw:Record&resultType=results&ID=IGNF_ELF_Administrative_Unit_1-0.xml"/>
+      <srv:operatesOn xlink:href="https://data.geo.rie.gouv.fr/inspire/csw?service=CSW&request=GetRecordbYiD&version=2.0.2&typeNames=csw:Record&resultType=results&ID=IGNF_ELF_Adresses_1-0.xml"/>
+      <srv:operatesOn xlink:href="https://data.geo.rie.gouv.fr/inspire/csw?service=CSW&request=GetRecordbYiD&version=2.0.2&typeNames=csw:Record&resultType=results&ID=IGNF_ELF_Hydrography_1-0.xml"/>
+      <srv:operatesOn xlink:href="https://data.geo.rie.gouv.fr/inspire/csw?service=CSW&request=GetRecordbYiD&version=2.0.2&typeNames=csw:Record&resultType=results&ID=IGNF_ELF_TransportNetworks_1-0.xml"/>
+-->
+		</srv:SV_ServiceIdentification>
+	</gmd:identificationInfo>
+	<gmd:distributionInfo>
+		<gmd:MD_Distribution>
+			<gmd:transferOptions>
+				<gmd:MD_DigitalTransferOptions>
+					<gmd:onLine>
+						<gmd:CI_OnlineResource>
+							<gmd:linkage>
+								<gmd:URL>https://data.geopf.fr/itineraire</gmd:URL>
+							</gmd:linkage>
+							<gmd:description>
+								<gmx:Anchor xlink:href="http://inspire.ec.europa.eu/metadata-codelist/OnLineDescriptionCode/accessPoint">accessPoint</gmx:Anchor>
+							</gmd:description>
+						</gmd:CI_OnlineResource>
+					</gmd:onLine>
+				</gmd:MD_DigitalTransferOptions>
+			</gmd:transferOptions>
+		</gmd:MD_Distribution>
+	</gmd:distributionInfo>
+	<gmd:dataQualityInfo>
+		<gmd:DQ_DataQuality>
+			<gmd:scope>
+				<gmd:DQ_Scope>
+					<gmd:level>
+						<gmd:MD_ScopeCode codeList="http://registre.ign.fr/ign/legacy/codelist/isoCodeListsExtensions/MD_ScopeCode" codeListValue="service">service</gmd:MD_ScopeCode>
+					</gmd:level>
+					<gmd:levelDescription>
+						<gmd:MD_ScopeDescription>
+							<gmd:other>
+								<gco:CharacterString>Service</gco:CharacterString>
+							</gmd:other>
+						</gmd:MD_ScopeDescription>
+					</gmd:levelDescription>
+				</gmd:DQ_Scope>
+			</gmd:scope>
+			<gmd:report>
+				<gmd:DQ_DomainConsistency>
+					<gmd:result/>
+					<gmd:result>
+						<gmd:DQ_ConformanceResult>
+							<gmd:specification xlink:href="http://inspire.ec.europa.eu/id/citation/ir/reg-1089-2010">
+								<gmd:CI_Citation>
+									<gmd:title>
+										<gmx:Anchor xlink:href="http://data.europa.eu/eli/reg/2010/1089">COMMISSION REGULATION (EU) No 1089/2010 of 23 November 2010 implementing Directive 2007/2/EC of the European Parliament and of the Council as regards interoperability of spatial data sets and services</gmx:Anchor>
+									</gmd:title>
+									<gmd:date>
+										<gmd:CI_Date>
+											<gmd:date>
+												<gco:Date>2010-12-08</gco:Date>
+											</gmd:date>
+											<gmd:dateType>
+												<gmd:CI_DateTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+											</gmd:dateType>
+										</gmd:CI_Date>
+									</gmd:date>
+								</gmd:CI_Citation>
+							</gmd:specification>
+							<gmd:explanation>
+								<gco:CharacterString>This Spatial Data Service set is conformant with the INSPIRE Implementing Rules for the interoperability of spatial data sets and services</gco:CharacterString>
+							</gmd:explanation>
+							<gmd:pass>
+								<gco:Boolean>true</gco:Boolean>
+							</gmd:pass>
+						</gmd:DQ_ConformanceResult>
+					</gmd:result>
+				</gmd:DQ_DomainConsistency>
+			</gmd:report>
+			<gmd:report>
+				<gmd:DQ_DomainConsistency>
+					<gmd:result>
+						<gmd:DQ_ConformanceResult>
+							<gmd:specification>
+								<gmd:CI_Citation>
+									<gmd:title>
+										<gmx:Anchor xlink:href="http://inspire.ec.europa.eu/id/ats/metadata/2.0/sds-invocable" xlink:title="INSPIRE Invocable Spatial Data Services metadata">invocable</gmx:Anchor>
+									</gmd:title>
+									<gmd:date>
+										<gmd:CI_Date>
+											<gmd:date>
+												<gco:Date>2016-05-01</gco:Date>
+											</gmd:date>
+											<gmd:dateType>
+												<gmd:CI_DateTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+											</gmd:dateType>
+										</gmd:CI_Date>
+									</gmd:date>
+								</gmd:CI_Citation>
+							</gmd:specification>
+							<gmd:explanation>
+								<gco:CharacterString>This Spatial Data Service set is conformant with the INSPIRE requirements for Invocable Spatial Data Services</gco:CharacterString>
+							</gmd:explanation>
+							<gmd:pass>
+								<gco:Boolean>true</gco:Boolean>
+							</gmd:pass>
+						</gmd:DQ_ConformanceResult>
+					</gmd:result>
+				</gmd:DQ_DomainConsistency>
+			</gmd:report>
+			<!--<gmd:report>
+				<gmd:DQ_DomainConsistency>
+					<gmd:result>
+						<gmd:DQ_ConformanceResult>
+							<gmd:specification>
+								<gmd:CI_Citation>
+									<gmd:title>
+										<gco:CharacterString>RÈGLEMENT (UE) N°1088/2010</gco:CharacterString>
+									</gmd:title>
+									<gmd:date>
+										<gmd:CI_Date>
+											<gmd:date>
+												<gco:Date>2010-11-23</gco:Date>
+											</gmd:date>
+											<gmd:dateType>
+												<gmd:CI_DateTypeCode codeList="http://registre.ign.fr/ign/legacy/codelist/isoCodeListsExtensions/CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+											</gmd:dateType>
+										</gmd:CI_Date>
+									</gmd:date>
+								</gmd:CI_Citation>
+							</gmd:specification>
+							<gmd:explanation xsi:type="gmd:PT_FreeText_PropertyType">
+								<gmd:PT_FreeText>
+									<gmd:textGroup>
+										<gmd:LocalisedCharacterString locale="#locale-eng">INSPIRE compliant</gmd:LocalisedCharacterString>
+									</gmd:textGroup>
+								</gmd:PT_FreeText>
+							</gmd:explanation>
+							<gmd:pass>
+								<gco:Boolean>true</gco:Boolean>
+							</gmd:pass>
+						</gmd:DQ_ConformanceResult>
+					</gmd:result>
+				</gmd:DQ_DomainConsistency>
+			</gmd:report>-->
+			<gmd:report>
+				<gmd:DQ_DomainConsistency>
+					<gmd:result>
+						<gmd:DQ_ConformanceResult>
+							<gmd:specification>
+								<gmd:CI_Citation>
+									<gmd:title>
+										<gmx:Anchor xlink:href="https://geoservices.ign.fr/documentation/services/api-et-services-ogc/itineraires/documentation-du-service-du-calcul">Service de calcul Itineraire</gmx:Anchor>
+									</gmd:title>
+									<gmd:date>
+										<gmd:CI_Date>
+											<gmd:date>
+												<gco:Date>2023-10-01</gco:Date>
+											</gmd:date>
+											<gmd:dateType>
+												<gmd:CI_DateTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+											</gmd:dateType>
+										</gmd:CI_Date>
+									</gmd:date>
+								</gmd:CI_Citation>
+							</gmd:specification>
+							<gmd:explanation>
+								<gco:CharacterString>This Spatial Data Service set is conformant with Geoplateforme specification</gco:CharacterString>
+							</gmd:explanation>
+							<gmd:pass>
+								<gco:Boolean>true</gco:Boolean>
+							</gmd:pass>
+						</gmd:DQ_ConformanceResult>
+					</gmd:result>
+				</gmd:DQ_DomainConsistency>
+			</gmd:report>
+		</gmd:DQ_DataQuality>
+	</gmd:dataQualityInfo>
+	<gmd:metadataConstraints>
+		<gmd:MD_SecurityConstraints>
+			<gmd:useLimitation xsi:type="gmd:PT_FreeText_PropertyType">
+				<gco:CharacterString>Aucune contrainte</gco:CharacterString>
+				<gmd:PT_FreeText>
+					<gmd:textGroup>
+						<gmd:LocalisedCharacterString locale="#locale-eng">no limitations</gmd:LocalisedCharacterString>
+					</gmd:textGroup>
+				</gmd:PT_FreeText>
+			</gmd:useLimitation>
+			<gmd:classification>
+				<gmd:MD_ClassificationCode codeList="http://librairies.ign.fr/geoportail/resources/CodeLists.xml#MD_ClassificationCode" codeListValue="unclassified">unclassified</gmd:MD_ClassificationCode>
+			</gmd:classification>
+		</gmd:MD_SecurityConstraints>
+	</gmd:metadataConstraints>
+</gmd:MD_Metadata>
