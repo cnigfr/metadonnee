@@ -1,9 +1,12 @@
 # Intro
 
-Le validateur européen est disponible ici : https://inspire.ec.europa.eu/validator/home/index.html
+Le validateur national est disponible ici : https://validateur.geocatalogue.fr/validator/ 
+![image](https://github.com/cnigfr/metadonnee/assets/12797943/2a6dc977-58e1-4e81-a7d2-eecd3de1fb55)
 
+Le validateur européen est disponible ici : https://inspire.ec.europa.eu/validator/home/index.html
 Pour tester une métadonnées de données le paramétrage suivant doit être sélectionné :
 ![image](https://github.com/cnigfr/metadonnee/assets/12797943/f18adde8-ca22-4f37-a8c7-34fde80e84cf)
+
 
 # Comprendre les erreurs du validateur
 
@@ -53,9 +56,12 @@ Les erreurs couramment rencontrées sont les suivantes !
 | 3.7 | Resource Locator | 0% |
 | 3.8 | Only One Data Quality Element | 27% |
 
+## C1 XML SChema
+![image](https://github.com/cnigfr/metadonnee/assets/12797943/c0e82b58-8d37-41cc-b371-f13323c80b16)
 
+Problème de schéma. 
 
-## C5 Language Code et 1.6 Ressource Language
+## C5 Language Code
 
 ![image](https://github.com/cnigfr/metadonnee/assets/12797943/21cbf91c-6906-4108-b914-cd4cb5d71176)
 
@@ -66,6 +72,11 @@ Les erreurs couramment rencontrées sont les suivantes !
 A remplacer par 
 
 `<gmd:language> <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="fre">fre</gmd:LanguageCode> </gmd:language>`
+
+## C10 Responsible Organization
+![image](https://github.com/cnigfr/metadonnee/assets/12797943/fd2b8b79-a234-4860-9062-7fa1a1c104b6)
+
+Le rôle de la partie responsable doit être pris dans la liste des valeurs possibles (cf. [liste](https://inspire.ec.europa.eu/metadata-codelist/ResponsiblePartyRole))
 
 ## C17 Limitations on Public Access
 
@@ -118,6 +129,8 @@ La conformité au règlement INSPIRE doit être exprimée de la façon suivante 
 
 ## 1.4 INSPIRE Theme Keyword
 ![image](https://github.com/cnigfr/metadonnee/assets/12797943/4f0b98c7-c05a-4763-af8c-f02dfe043f90)
+![image](https://github.com/cnigfr/metadonnee/assets/12797943/d112f0de-166f-4d90-b88b-24f6ffe40d2e)
+
 
 Le mot-clé INSPIRE doit être exprimé comme suit : 
 
@@ -154,4 +167,16 @@ Le mot-clé INSPIRE doit être exprimé comme suit :
                      </gmd:thesaurusName>
                   </gmd:MD_Keywords>
 
+## 1.6 Ressource Language
+![image](https://github.com/cnigfr/metadonnee/assets/12797943/9b0b7573-221e-4ba3-be0f-3d08b52690fb)
 
+`<gmd:language>
+<gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">fre</gco:CharacterString>
+</gmd:language>`
+
+A remplacer par 
+
+`<gmd:language> <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="fre">fre</gmd:LanguageCode> </gmd:language>`
+
+## 1.10 Dataset Conformity
+Résoudre les C.20, C.21, C.22 doit permettre de résoudre cette erreur.
