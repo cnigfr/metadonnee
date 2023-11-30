@@ -180,3 +180,61 @@ A remplacer par
 
 ## 1.10 Dataset Conformity
 Résoudre les C.20, C.21, C.22 doit permettre de résoudre cette erreur.
+
+## M.1 Spatial scope
+
+![image](https://github.com/cnigfr/metadonnee/assets/12797943/d9c041e2-440b-462e-85dc-fe120d605240)
+
+#Option 1: avec gmx:Anchor
+
+`<gmd:descriptiveKeywords>
+    <gmd:MD_Keywords>
+        <gmd:keyword>
+            <gmx:Anchor xlink:href="http://inspire.ec.europa.eu/metadata-codelist/SpatialScope/national">National</gmx:Anchor>
+        </gmd:keyword>
+        <gmd:thesaurusName>
+            <gmd:CI_Citation>
+                <gmd:title>
+                    <gmx:Anchor xlink:href="http://inspire.ec.europa.eu/metadata-codelist/SpatialScope">Spatial scope</gmx:Anchor>
+                </gmd:title>
+                <gmd:date>
+                    <gmd:CI_Date>
+                        <gmd:date>
+                            <gco:Date>2019-05-22</gco:Date>
+                        </gmd:date>
+                        <gmd:dateType>
+                            <gmd:CI_DateTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                        </gmd:dateType>
+                    </gmd:CI_Date>
+                </gmd:date>
+            </gmd:CI_Citation>
+        </gmd:thesaurusName>
+    </gmd:MD_Keywords>
+</gmd:descriptiveKeywords>`
+
+#Option 2: Avec gco:CharacterString
+
+`<gmd:descriptiveKeywords>
+    <gmd:MD_Keywords>
+        <gmd:keyword>
+            <gco:CharacterString>National</gco:CharacterString>
+        </gmd:keyword>
+        <gmd:thesaurusName>
+            <gmd:CI_Citation>
+                <gmd:title>
+                    <gco:CharacterString>Spatial scope</gco:CharacterString>
+                </gmd:title>
+                <gmd:date>
+                    <gmd:CI_Date>
+                        <gmd:date>
+                            <gco:Date>2019-05-22</gco:Date>
+                        </gmd:date>
+                        <gmd:dateType>
+                            <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                        </gmd:dateType>
+                    </gmd:CI_Date>
+                </gmd:date>
+            </gmd:CI_Citation>
+        </gmd:thesaurusName>
+    </gmd:MD_Keywords>
+</gmd:descriptiveKeywords>`
