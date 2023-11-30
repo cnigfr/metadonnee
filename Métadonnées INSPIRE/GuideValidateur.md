@@ -187,7 +187,7 @@ Résoudre les C.20, C.21, C.22 doit permettre de résoudre cette erreur.
 
 #Option 1: avec gmx:Anchor
 
-`<gmd:descriptiveKeywords>
+    <gmd:descriptiveKeywords>
     <gmd:MD_Keywords>
         <gmd:keyword>
             <gmx:Anchor xlink:href="http://inspire.ec.europa.eu/metadata-codelist/SpatialScope/national">National</gmx:Anchor>
@@ -210,11 +210,11 @@ Résoudre les C.20, C.21, C.22 doit permettre de résoudre cette erreur.
             </gmd:CI_Citation>
         </gmd:thesaurusName>
     </gmd:MD_Keywords>
-</gmd:descriptiveKeywords>`
+    </gmd:descriptiveKeywords>
 
 #Option 2: Avec gco:CharacterString
 
-`<gmd:descriptiveKeywords>
+    <gmd:descriptiveKeywords>
     <gmd:MD_Keywords>
         <gmd:keyword>
             <gco:CharacterString>National</gco:CharacterString>
@@ -237,4 +237,4 @@ Résoudre les C.20, C.21, C.22 doit permettre de résoudre cette erreur.
             </gmd:CI_Citation>
         </gmd:thesaurusName>
     </gmd:MD_Keywords>
-</gmd:descriptiveKeywords>`
+    </gmd:descriptiveKeywords>
