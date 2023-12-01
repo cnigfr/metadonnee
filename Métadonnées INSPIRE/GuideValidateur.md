@@ -100,6 +100,21 @@ Les limitations d'accès publiques doivent être expréimées dans une contraint
             </gmd:MD_LegalConstraints>
          </gmd:resourceConstraints>
 
+## C18 Conditions for Access and Use
+![image](https://github.com/cnigfr/metadonnee/assets/12797943/e0db58b9-b24e-46a0-9682-15c044c624fd)
+
+    <gmd:resourceConstraints>
+    <gmd:MD_LegalConstraints>
+    <gmd:useconstraints>
+    <gmd:md_restrictioncode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions">
+    </gmd:md_restrictioncode>
+    </gmd:useconstraints>
+    <gmd:otherConstraints>
+    <gmx:Anchor xlink:href="http://inspire.ec.europa.eu/metadatacodelist/ConditionsApplyingToAccessAndUse/noConditionsApply">No conditions apply to access and use</gmx:Anchor>
+    </gmd:otherConstraints>
+    </gmd:MD_LegalConstraints>
+    </gmd:resourceConstraints>
+
 ## C19 Geographical Bounding Box
 ![image](https://github.com/cnigfr/metadonnee/assets/12797943/c6bc9507-393d-4ae1-9bdc-ddeaec648a05)
 
