@@ -105,10 +105,9 @@ Les limitations d'accès publiques doivent être expréimées dans une contraint
 
     <gmd:resourceConstraints>
     <gmd:MD_LegalConstraints>
-    <gmd:useconstraints>
-    <gmd:md_restrictioncode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions">
-    </gmd:md_restrictioncode>
-    </gmd:useconstraints>
+    <gmd:useConstraints>
+    <gmd:MD_RestrictionCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions">otherRestrictions</gmd:MD_RestrictionCode>
+    </gmd:useConstraints>
     <gmd:otherConstraints>
     <gmx:Anchor xlink:href="http://inspire.ec.europa.eu/metadatacodelist/ConditionsApplyingToAccessAndUse/noConditionsApply">No conditions apply to access and use</gmx:Anchor>
     </gmd:otherConstraints>
